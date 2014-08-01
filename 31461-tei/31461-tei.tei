@@ -1,0 +1,2188 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE TEI.2 SYSTEM "http://www.gutenberg.org/tei/marcello/0.4/dtd/pgtei.dtd">
+<TEI.2 lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Das Grabmal des Theoderich zu Ravenna und seine Stellung in der Architekturgeschichte</title>
+                <author><name reg="Schulz, Bruno">Bruno Schulz</name></author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Project Gutenberg</publisher>
+                <date value="2010-03-01">March 1, 2010</date>
+                <idno type='etext-no'>31461</idno>
+                <availability><p>This eBook is for the use of anyone anywhere at no cost and
+        with almost no restrictions whatsoever. You may copy it, give it
+        away or re-use it under the terms of the Project Gutenberg
+        License online at www.gutenberg.org/license</p>
+</availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl><author><name reg="Schulz, Bruno">Bruno Schulz</name></author>
+                    <title>Das Grabmal des Theoderich zu Ravenna
+                    und seine Stellung in der Architekturgeschichte</title>
+                <imprint>
+                    <pubPlace>Würzburg</pubPlace>
+                    <publisher>Curt Kabitzsch (A. Stuber’s Verlag)</publisher>
+                    <date>1911</date>
+                </imprint>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Siehe "Bemerkungen zur Textgestalt" am Ende.</p>
+        </encodingDesc>
+   <profileDesc>
+    <langUsage>
+      <language id="de">German</language>
+    </langUsage>
+    <textClass>
+      <keywords>
+        <list>
+          <item>Theoderich</item>
+          <item>Ravenna</item>
+        </list>
+      </keywords>
+    </textClass>
+   </profileDesc>
+        <revisionDesc>
+          <change>
+            <date value="2010-03-01">March 1, 2010</date>
+            <respStmt>
+                <resp>Produced by <name>Karl Eichwalder</name>, <name>Martin Ågren</name>,
+                    <name>Stefan Cramme</name> and the Online Distributed Proofreading Team at http://www.pgdp.net</resp>
+            </respStmt>
+            <item>Project Gutenberg TEI edition 1</item>
+          </change>
+        </revisionDesc>
+   </teiHeader>
+<pgExtensions>
+    <pgStyleSheet>
+        .bold        { font-weight: bold }
+        .semibold    { font-weight: 600 }  
+        .center      { text-align: center }
+        .ill         { margin-left: 2; margin-right: 2 }
+        .italic      { font-style: italic }
+        .gesperrt    { letter-spacing: 0.2em; margin-right: -0.2em }
+        figure       { text-align: center }
+        .w100 { }
+        .w80 { }
+        .w70 { }
+        .w60 { }
+        head         { text-align: center }
+        @media pdf {
+        .w70 { width: 70%; page-float: 'htp' }
+        .w100 { width: 100%; page-float: 'htp' }
+        .w80 { width: 80%; page-float: 'htp' }
+        .w60 { width: 60%; page-float: 'htp' }
+        }
+    </pgStyleSheet>
+</pgExtensions>
+<text lang="de">
+<front>
+    <div>
+      <divGen type="pgheader" />
+    </div>
+    <div>
+      <divGen type="encodingDesc" />
+    </div>
+    <div rend="page-break-before: right">
+        <pb/>
+        <pgIf output="txt"><then>
+            <p rend="center">MANNUS-BIBLIOTHEK<lb/>
+        herausgegeben
+        <lb/>
+        von Professor Dr. Gustaf Kossinna
+        <lb/>
+        No. 3.</p>
+            <p rend="center">Das<lb/>Grabmal des Theoderich zu Ravenna<lb/>und seine Stellung in der Architekturgeschichte</p>
+            <p rend="center">Von<lb/>
+            Bruno Schulz<lb/>
+            ord. Professor für Architektur an der Kgl. Technischen Hochschule zu Hannover</p>
+            <p rend="center">Mit 34 Textabbildungen und einem Titelbild</p>
+            <p rend="center">Würzburg<lb/>
+        Curt Kabitzsch<lb/>
+            1911.</p>
+        </then>
+        <else><p><figure url="images/umschlag.png" rend="w100"><figDesc>[Umschlag]</figDesc></figure></p></else></pgIf>
+    </div>
+    
+    <div rend="page-break-before: always">
+        <pb/>
+        
+        <p rend="center">
+            <hi rend="font-size: large">„<hi rend='bold'>Mannus</hi>“, Zeitschrift für Vorgeschichte</hi><lb/>
+            <hi rend="font-size: small">herausgegeben von <hi rend='bold'>Professor Dr. Gustaf Kossinna</hi></hi>.
+        </p>
+        
+        <p rend="center; font-size: small">Jährlich etwa 3–4 Hefte in zwangloser Folge, die zusammen einen Band von ca. 20 Druckbogen mit ebensoviel
+            Tafeln und reichlichen Textillustrationen bilden. Einzelne Hefte sind nicht käuflich.<lb/>
+            <hi rend="text-decoration: underline">Abonnementspreis pro Jahr M. 16.–, Einbanddecken à M. 1.–.</hi>
+        </p>
+        
+        <p rend="center">
+            <hi rend='bold'>Inhalts-Verzeichnis des I. Bandes</hi> (IV u. 350 S. mit 38 Tafeln u. 221 Textabbildungen):
+        </p>
+        
+        <p rend="font-size: small">
+            <hi rend='bold'>Geleitwort.</hi> – <hi rend='bold'>Gründungsbericht</hi> und <hi rend='bold'>Satzungen</hi> der Deutschen Gesellschaft für Vorgeschichte. –
+            I. Abhandlungen: <hi rend='bold'><hi rend='gesperrt'>Kossinna</hi>, G.</hi>, (Berlin), <hi rend='bold'>Der Ursprung der Urfinnen und der Urindogermanen und
+                ihre Ausbreitung nach dem Osten</hi>. I. Urfinnen und Nordindogermanen. Mit 25 Textabbildungen und 11 Tafeln.
+            – <hi rend='bold'><hi rend='gesperrt'>Kossinna</hi>, G.</hi>, (Berlin), <hi rend='bold'>Der Ursprung der Urfinnen und der Urindogermanen und ihre Ausbreitung
+                nach dem Osten</hi>. II. Nordindogermanen und Südindogermanen. Mit 22 Textabbildungen und 13 Tafeln. –
+            <hi rend='bold'><hi rend='gesperrt'>Montelius</hi>, O.</hi>, (Stockholm), <hi rend='bold'>Das Sonnenrad und das christliche Kreuz I</hi>. Mit 40 Textabbildungen. –
+            <hi rend='bold'><hi rend='gesperrt'>Montelius</hi>, O.</hi>, (Stockholm), <hi rend='bold'>Das Sonnenrad und das christliche Kreuz II</hi>. (Fortsetzung und Schluss). Mit
+            32 Textabbildungen. – <hi rend='bold'><hi rend='gesperrt'>Devoir</hi>, A.</hi>, (Brest), <hi rend='bold'>Urzeitliche Astronomie in Westeuropa</hi>. Mit 4 Textabbildungen
+            und 3 Tafeln. – <hi rend='bold'><hi rend='gesperrt'>Rademacher</hi>, C.</hi>, (Köln), <hi rend='bold'>Die germanische Dorfanlage der Kaiserzeit</hi> am Fliegenberge
+            bei Troisdorf, Siegkreis, Reg.-Bez. Köln. Mit 4 Textabbildungen und 1 Tafel. – <hi rend='bold'><hi rend='gesperrt'>Schmidt</hi>, R. R.</hi>, (Tübingen),
+            <hi rend='bold'>Das Aurignacien in Deutschland</hi>. Vergleichende Stratigraphie des älteren Jungpaläolithikum. Mit 3 Tafeln. –
+            <hi rend='bold'><hi rend='gesperrt'>Weinzierl</hi>, R. R. von</hi>, (Teplitz-Schönau), <hi rend='bold'>Übersicht über die Forschungsergebnisse in Nordböhmen</hi>.
+            Mit 32 Textabbildungen und 1 Porträt. – <hi rend='bold'><hi rend='gesperrt'>Rieken</hi>, K.</hi>, (Kottbus), <hi rend='bold'>Drei Holzbrandplätze mit Steinkern aus
+                der Bronzezeit</hi>. Aus der städt. Abteilung des Niederlausitzer Museums für Altertumskunde in Kottbus N.-L. Mit
+            11 Textabbildungen und 1 Tafel. – II. Mitteilungen: <hi rend='bold'><hi rend='gesperrt'>Goetze</hi>, A.</hi>, (Berlin), <hi rend='bold'>Ostgotische Helme und symbolische
+                Zeichen</hi>. Mit 4 Textabbildungen und 1 Tafel. – <hi rend='bold'><hi rend='gesperrt'>Hess von Wichdorff</hi>, H.</hi>, (Berlin), <hi rend='bold'>Über die ersten Anfänge
+                    vorgeschichtlicher Erkenntnis im Ausgange des Mittelalters</hi>. Ein Beitrag zur Geschichte der vorgeschichtlichen
+            Wissenschaft. – <hi rend='bold'><hi rend='gesperrt'>Kossinna</hi>, G.</hi>, (Berlin), Vergessener Bericht über ein Urnengräberfeld der Latènezeit
+            (?) in Ermsleben, Mansfelder Gebirgskreis, vom Jahre 1710. Mit 1 Textabbildung. – <hi rend='bold'><hi rend='gesperrt'>Schneider</hi>, H.</hi>, (Leipzig),
+            <hi rend='bold'>Rassereinheit und Kultur</hi>. – <hi rend='bold'><hi rend='gesperrt'>Wilke</hi>, G.</hi>, (Chemnitz), <hi rend='bold'>Der neue Skelettfund des Homo Aurignacensis
+                Hauseri</hi>. Mit 1 Textabbildung. – <hi rend='bold'><hi rend='gesperrt'>Beltz</hi>, R.</hi>, (Schwerin), <hi rend='bold'>Einige seltenere steinzeitliche Funde aus Mecklenburg</hi>.
+            Mit 2 Textabbildungen und 1 Tafel. – <hi rend='bold'><hi rend='gesperrt'>Müller-Brauel</hi>, H.</hi>, (Zeven), <hi rend='bold'>Der „Hexenberg“ am Wege
+                Brauel-Offensen, Kr. Zeven</hi>. Ein steinzeitlicher Grabhügel. Fundbericht von 1891. Mit 16 Textabbildungen und
+            1 Tafel. – <hi rend='bold'><hi rend='gesperrt'>Waase</hi>, K.</hi>, (Neu-Ruppin), <hi rend='bold'>Möritzscher Funde</hi>. Urnengräberfunde aus der Leipziger Tieflandbucht.
+            Mit 2 Tafeln. – <hi rend='bold'><hi rend='gesperrt'>Hekler</hi>, A.</hi>, (Budapest), <hi rend='bold'>Eine neue Bronzebüste eines Germanen</hi>. Mit 1 Textabbildung. –
+            <hi rend='bold'><hi rend='gesperrt'>Schmidt</hi>, H.</hi>, (Löbau), <hi rend='bold'>Ergebnis meiner Wallforschung auf dem Breitenberge bei Striegau in Schlesien</hi>.
+            Mit 2 Textabbildungen. – <hi rend='bold'><hi rend='gesperrt'>Voges, Th.</hi></hi>, <hi rend='bold'>Vorgeschichte des Dorfes Beierstedt bei Jerxheim</hi>. – III. Aus
+            Museen und Vereinen: <hi rend='bold'><hi rend='gesperrt'>Kiekebusch</hi>, A.</hi>, (Berlin), Die vorgeschichtliche Abteilung des Märkischen Museums der
+            Stadt Berlin. Mit 5 Textabbildungen. – <hi rend='bold'><hi rend='gesperrt'>Blume</hi>, E.</hi>, (Posen), <hi rend='bold'>Aus der Provinz Posen</hi>. Erwerbungen des
+            Kaiser Friedrich-Museums zu Posen. Juli–Dezember 1908. – <hi rend='bold'><hi rend='gesperrt'>Blume</hi>, E.</hi>, (Posen), <hi rend='bold'>Aus der Provinz Posen</hi>.
+            Erwerbungen des Kaiser Friedrich-Museums zu Posen vom Januar bis Juni 1909. Mit 3 Textabbildungen. –
+            <hi rend='bold'><hi rend='gesperrt'>Günther</hi>, A.</hi>, (Koblenz), <hi rend='bold'>Das Museum des Kunst-, Kunstgewerbe- und Altertums-Vereins für den
+                Regierungsbezirk Coblenz</hi>. – <hi rend='bold'><hi rend='gesperrt'>Rademacher</hi>, C.</hi>, (Köln), <hi rend='bold'>Prähistorisches Museum zu Köln</hi>. –
+            <hi rend='bold'><hi rend='gesperrt'>Funse</hi>, F.</hi>, (Braunschweig), <hi rend='bold'>Städtisches Museum Braunschweig</hi>. Mit 3 Textabbildungen. – Deutsche Gesellschaft
+            Naturw.-Abt. in Posen. Vortrag: <hi rend='bold'><hi rend='gesperrt'>Blume</hi></hi>, Die chronologische und ethnographische Methode der vorgeschichtl.
+            Forschung. – Société préhistorique de France. – Sitzungsberichte der Berliner Zweiggesellschaft der
+            Deutschen Gesellschaft für Vorgeschichte. – IV. Bücherbesprechungen. – V. Nachrichten. (Mit 3 Porträts u. 1 Tafel.)
+        </p>
+        
+        <p rend="center">
+            <hi rend='bold'>Inhalts-Verzeichnis des II. Bandes</hi> (IV u. 363 S. mit 17 Taf. u. 278 Textabbildungen):
+        </p>
+        
+        <p rend="font-size: small">
+            I. Abhandlungen: <hi rend='bold'><hi rend='gesperrt'>Rademacher</hi>, C.</hi>, (Köln), <hi rend='bold'>Germanische Gräber der Kaiserzeit</hi> am Fliegenberge
+            bei Troisdorf, Siegkreis, Reg.-Bez. Köln. Mit 14 Textabbildungen und 4 Tafeln. – <hi rend='bold'><hi rend='gesperrt'>Montelius</hi>, O.</hi>, (Stockholm),
+            <hi rend='bold'>Naturrevolutionen in Mittel-Italien vor dreitausend Jahren</hi>. Mit 20 Textabbildungen. – <hi rend='bold'><hi rend='gesperrt'>Günther</hi>, A.</hi>,
+            (Coblenz), <hi rend='bold'>Zur Entstehungs- und Besiedlungsgeschichte des Neuwieder Beckens</hi>. Mit 18 Textabbildungen
+            und 5 Tafeln. I. – <hi rend='bold'><hi rend='gesperrt'>Kossinna</hi>, G.</hi>, (Berlin), <hi rend='bold'>Der Ursprung der Urfinnen und Urindogermanen und ihre
+                Ausbreitung nach Osten</hi>. III. Nordindogermanen und Südindogermanen. Mit 71 Textabbildungen und 1 Karte. <anchor id="corra1"/><corr sic="(added)">–</corr>
+            <hi rend='bold'><hi rend='gesperrt'>Frödin</hi>, O.</hi>, (Stockholm), <hi rend='bold'>Ein schwedischer Pfahlbau aus der Steinzeit</hi>. Mit 80 Textabbildungen. –
+            II. Mitteilungen: <hi rend='bold'><hi rend='gesperrt'>Berner</hi>, U.</hi>, (Berlin), <hi rend='bold'>Rasse, Rassenmischung und Begabung</hi>. – <hi rend='bold'><hi rend='gesperrt'>Bieder</hi>, Th.</hi>, (Hamburg),
+            <hi rend='bold'>Die deutsche Rassenforschung und ihre Ausprägung in Dr. L. Woltmann</hi>. – <hi rend='bold'><hi rend='gesperrt'>Kossinna</hi>, G.</hi>,
+            (Berlin), <hi rend='bold'>Zum Homo Aurignacensis</hi>. Mit 1 Tafel. – <hi rend='bold'><hi rend='gesperrt'>Auerbach</hi>, A.</hi>, (Gera), <hi rend='bold'>Tardenoisien in Ostthüringen</hi>.
+            Mit 9 Textabbildungen. – <hi rend='bold'><hi rend='gesperrt'>Günther</hi>, A.</hi>, (Coblenz), <hi rend='bold'>Zwei Zonenbecher aus Urmitz</hi>. Mit 3 Textabbildungen.
+            – <hi rend='bold'><hi rend='gesperrt'>Bezzenberger</hi>, A.</hi>, (Königsberg), <hi rend='bold'>Zur Geschichte der Sichel</hi>. Mit 3 Textabbildungen. –
+            <hi rend='bold'><hi rend='gesperrt'>Waase</hi>, K.</hi>, (Neu-Ruppin), <hi rend='bold'>Kantower Funde</hi>. Mit 5 Tafeln. – <hi rend='bold'><hi rend='gesperrt'>Hindenburg</hi>, W.</hi>, (Grossbeeren), <hi rend='bold'>Neue
+                Funde der Latène-Zeit aus dem Kreise Teltow</hi>. Mit 21 Textabbildungen. – <hi rend='bold'><hi rend='gesperrt'>Krause</hi>, E. H. L.</hi>, (Strassburg),
+            <hi rend='bold'>Spelz- und Alemannengrenze</hi>. – <hi rend='bold'><hi rend='gesperrt'>Kossinna</hi>, G.</hi>, (Berlin), <hi rend='bold'>Zur Wochengöttervase vom Fliegenberg
+                bei Troisdorf, Siegkreis</hi>. Mit 5 Textabbildungen. – <hi rend='bold'><hi rend='gesperrt'>Solger</hi>, Fr.</hi>, (Peking), <hi rend='bold'>Das Klima Norddeutschlands
+                    seit der Eiszeit</hi>. Mit 5 Textabbildungen. – <hi rend='bold'><hi rend='gesperrt'>Mötefindt</hi>, H.</hi>, (Wernigerode), <hi rend='bold'>Das Dreiperiodensystem</hi>. –
+            <hi rend='bold'><hi rend='gesperrt'>Kossinna</hi>, G.</hi>, (Berlin), <hi rend='bold'>Zum Dreiperiodensystem</hi>. – <hi rend='bold'><hi rend='gesperrt'>Jacob</hi>, K. H.</hi>, (Leipzig), <hi rend='bold'>Bronzegefäss oder Stockknopf?</hi>
+            Mit 2 Textabbildungen. – III. Aus Museen und Vereinen: <hi rend='bold'><hi rend='gesperrt'>Beltz</hi>, R.</hi>, (Schwerin), <hi rend='bold'>Vorgeschichtliche
+                Funde und Untersuchungen in Mecklenburg</hi>. 1907–1909. Mit 9 Textabbildungen. – <hi rend='bold'><hi rend='gesperrt'>Schultze</hi>, <anchor id="corra2"/><corr sic="M">M.</corr></hi>, (Bromberg),
+            <hi rend='bold'>Bericht über Neueingänge des Jahres 1909 in der vorgeschichtlichen Sammlung im Museum
+                der historischen Gesellschaft zu Bromberg</hi>. Mit 20 Textabbildungen. – Berliner Zweiggesellschaft der Deutschen
+            Gesellschaft für Vorgeschichte. Ausflug nach Seddin. – <hi rend='bold'><hi rend='gesperrt'>Kossinna</hi>, G.</hi>, (Berlin), Ansprache über die kulturgeschichtliche
+            Stellung der Prignitz in der Vorzeit. Mit 6 Textabbildungen und 1 Tafel. – Sitzungsberichte. –
+            IV. Bücherbesprechungen. – V. Nachrichten. (Mit 2 Porträts.) – VI. Mitglieder-Verzeichnis.
+        </p>
+        
+        <p rend="center">
+            <hi rend="bold">I. Ergänzungsband:</hi>
+       <lb/>
+            <hi rend="bold; font-size: large">Bericht über die I. Hauptversammlung der Deutschen Gesellschaft für Vorgeschichte</hi><lb/>
+            <hi rend="font-size: small">zu Hannover, 6. bis 9. August 1909, herausgegeben von <hi rend='bold'>Professor Dr. Gustaf Kossinna</hi>.<lb/>
+            IV u. 107 S. mit 2 Tafeln und 4 Abbildungen im Text. – Preis Mk. 4.–, Einbanddecke M. 1.–.<lb/>
+            <hi rend="text-decoration: underline">Vorzugspreis</hi> für Mitglieder der Gesellschaft und Abonnenten des Mannus <hi rend="text-decoration: underline">Mk. 3.–.</hi></hi>
+        </p>
+        
+        <p rend="font-size: small">
+            <hi rend='bold'><hi rend='gesperrt'>Inhalt</hi></hi>: Ansprachen und Weihereden. – <hi rend='bold'>Festmahl</hi>: Aufführungen. – <hi rend='bold'>Vorträge</hi>: <hi rend='bold'><hi rend='gesperrt'>Kossinna</hi></hi>, Über
+            vorgeschichtlichen Handel in Mitteleuropa. – <hi rend='bold'><hi rend='gesperrt'>Reimers</hi></hi>, Vorgeschichtsforschung und Denkmalpflege. – <hi rend='bold'><hi rend='gesperrt'>Höfer</hi></hi>,
+            Die Erforschung mittelalterlicher Burgen. – <hi rend='bold'><hi rend='gesperrt'>Olbricht</hi></hi>, Das Klima der postbaltischen Zeit und die vorgeschichtliche
+            Chronologie. – <hi rend='bold'><hi rend='gesperrt'>Schwantes</hi></hi>, Slawische Skelettgräber bei Rassau (Provinz Hannover). – <hi rend='bold'><hi rend='gesperrt'>Feyerabend</hi></hi>,
+            Die Entstehung der Schlackenwälle und die verschiedenen Typen der Burgwälle in der Oberlausitz. – <hi rend='bold'><hi rend='gesperrt'>Kiekebusch</hi></hi>,
+            Die wichtigsten Bronzezeitfunde des Märkischen Museums der Stadt Berlin. – <hi rend='bold'><hi rend='gesperrt'>Schmidt</hi></hi>, Die spätpaläolithischen
+            Bestattungen der Ofnet. – <hi rend='bold'><hi rend='gesperrt'>Schulz</hi></hi>, Das Theoderichgrabmal zu Ravenna und seine Stellung in der Architekturgeschichte.
+            – <hi rend='bold'><hi rend='gesperrt'>Bezzenberger</hi></hi>, Ostpreussische Grenzbeziehungen. – <hi rend='bold'><hi rend='gesperrt'>Knoke</hi></hi>, Wanderung über das Schlachtfeld
+            des Teutoburger Waldes. – Diluvialarchäologische <hi rend='gesperrt'>Konferenz</hi>. – <hi rend='bold'>Ausflüge</hi>: 1. In die Lüneburger Heide,
+            nach Wohlde und zu den Sieben Steinhäusern bei Südbostel (8. August). 2. Ins Wesergebirge und in den Teutoburger
+            Wald. Exkurs über den Flurnamen „Idistaviso“ von Prof. <hi rend='bold'><hi rend='gesperrt'>Kossinna</hi></hi>. 3. Nach Süddeutschland zum Besuch
+            neugeordneter Sammlungen des deutschen Paläolithikums (13.–16. August). – <hi rend='bold'><hi rend='gesperrt'>Schmidt</hi></hi>, Geologische und archäologische
+            Ergebnisse seiner seit 1896 vorgenommenen Ausgrabungen süddeutscher Höhlen. – <hi rend='bold'><hi rend='gesperrt'>Schmidt</hi></hi>, Die Epochen
+            der parietalen Kunst in den Höhlen Südfrankreichs und Spaniens. – <hi rend='bold'><hi rend='gesperrt'>Schmidt</hi></hi>, Die diluvialprähistorische
+            Sammlung deutscher Funde in Tübingen.
+        </p>        
+    </div>
+    <div rend="page-break-before: always">
+        <pb/>
+        <index index="ill" level1="Das Grabmal des Theoderich. Rekonstruktion von Bruno Schulz. [Titelbild]"/>
+        <pgIf output='txt'><then>
+            <p rend="ill">[Illustration: Das Grabmal des Theoderich.<lb/>
+                Rekonstruktion von Bruno Schulz.]</p>
+        </then><else>        
+            <p><figure url="images/titel.jpg" rend="w100">
+                <head><hi rend="gesperrt">Das Grabmal des Theoderich.</hi><lb/>
+                    Rekonstruktion von Bruno Schulz.</head>
+                <figDesc>Das Grabmal des Theoderich. Rekonstruktion von Bruno Schulz.</figDesc>
+            </figure></p></else></pgIf>
+        <p></p>
+    </div>    
+<titlePage rend="page-break-before: always; center">
+    <pb/>
+<docTitle>
+    <titlePart>
+<hi rend="font-size: large">Darstellungen früh- und vorgeschichtlicher Kultur-,
+Kunst- und Völkerentwicklung</hi></titlePart><lb/>
+
+<titlePart><hi rend="font-size: small">herausgegeben von</hi></titlePart><lb/>
+
+<titlePart>Professor Dr. Gustaf Kossinna</titlePart><lb/><lb/>
+
+<titlePart><hi rend="font-size: x-large; bold">3. Heft.</hi></titlePart>
+<lb/><lb/><lb/>
+<titlePart type='main'><hi rend="font-size: x-large; bold">Das</hi><lb/>
+<hi rend="font-size: xx-large; bold">Grabmal des Theoderich</hi><lb/>
+<hi rend="font-size: x-large; bold">zu Ravenna</hi></titlePart><lb/>
+<titlePart>und</titlePart><lb/>
+<titlePart><hi rend="font-size: large">seine Stellung in der Architekturgeschichte</hi></titlePart>
+</docTitle>
+<lb/><lb/>
+<byline>Von<lb/><lb/>
+<docAuthor><hi rend="font-size: x-large; bold">Bruno Schulz</hi></docAuthor>
+<lb/><hi rend="font-size: small">Professor für Architektur an der Kgl. Technischen Hochschule Hannover</hi></byline>
+    <lb/>
+<titlePart>
+Mit 34 Textabbildungen und einem Titelbild<lb/>
+</titlePart>
+<lb/><lb/><lb/>
+<docImprint>
+<pubPlace><hi rend="font-size: large">Würzburg</hi></pubPlace><lb/>
+<publisher><hi rend="gesperrt">Curt Kabitzsch (A. Stuber’s Verlag)</hi></publisher><lb/>
+<docDate>1911</docDate><lb/>
+</docImprint>
+</titlePage>
+
+<div rend="page-break-before: always">
+    <pb/>
+
+<p rend="center">
+<hi rend="font-size: small">Königl. Universitätsdruckerei H. Stürtz A.G., Würzburg.</hi>
+</p>
+    <pb/>
+</div>
+    <div>
+        <index index="pdf"/><index index="toc"/>
+        <head>Abbildungen</head>
+        <divGen type="ill"/>
+    </div>
+</front>
+
+<body rend="page-break-before: always">
+
+    <pb n='1'/><anchor id='Pg001'/>
+
+<p>
+In der ungeheuren Menge von monumentalen Bauwerken aus
+allen Zeiten, an denen Italien so reich ist, ist doch kaum ein zweites,
+das gerade für den Deutschen einen so ausgesprochenen Stimmungswert
+hat, wie das Grabmal, das der grosse Ostgotenkönig Theoderich
+sich vor den Toren seiner Residenz Ravenna noch bei seinen Lebzeiten
+selbst errichtet hat. Alles, was wir von Theoderich und
+seiner Zeit wissen und erfahren, mutet uns ja besonders an, sind
+es doch Klänge aus der stürmischen Jugendzeit unserer Rasse, und
+wir können sagen, unseres Volkes. Als Dietrich von Bern ist er
+eine der gewaltigsten Gestalten der deutschen Heldensage. Aber
+auch für die geschichtliche Betrachtung kann er in gewissem Sinne
+an die erste Stelle unter den germanischen Fürsten gestellt werden;
+ist er doch der erste gewesen, der bewusst und, solange er lebte,
+mit Erfolg den grossen Gedanken verfolgt hat, Erbe der römischen
+Cäsaren zu sein in dem Sinne, germanischem Volke unter Wahrung
+nationaler Eigenart das ungeheure Kulturgut zu eigen zu machen,
+das die antike Welt hinterlassen hat. Das Schicksal aber ist hart
+über sein Lebenswerk hinweg geschritten und hat wenige Jahre
+nach seinem Tode sein ganzes Volk vernichtet. So mischt sich ein
+Gefühl tragischen Mitleides in sein Andenken, und eine Stimmung,
+die an derartiges anklingt, liegt auch über seinem Grabmal in seiner
+jetzigen Gestalt und Umgebung. (<ref target="b1">Bild 1</ref> und <ref target="b2">2</ref>.)
+</p>
+    <index index="ill" level1="Bild 1. Grab des Theoderich, Westseite. [S. 2]"/>
+    <anchor id="b1"/>
+<pgIf output='txt'><then>
+        <p rend="ill">[Illustration: Bild 1. Grab des Theoderich, Westseite.]</p>
+    </then><else>
+    <p><figure url="images/bild1.jpg" rend="w100">
+        <head>Bild 1. Grab des Theoderich, Westseite.</head>
+        <figDesc>Bild 1. Grab des Theoderich, Westseite.</figDesc>
+    </figure></p>
+    </else></pgIf>
+    <index index="ill" level1="Bild 2. Grab des Theoderich, Ostseite. [S. 3]"/>
+    <anchor id="b2"/>
+     <pgIf output='txt'><then>
+        <p rend="ill">[Illustration: Bild 2. Grab des Theoderich, Ostseite.]</p>
+    </then><else>
+<p><figure url="images/bild2.jpg" rend="w100">
+<head>Bild 2. Grab des Theoderich, Ostseite.</head>
+<figDesc>Bild 2. Grab des Theoderich, Ostseite.</figDesc>
+</figure></p>
+    </else></pgIf>
+<p>
+Kein Wunder also, dass gerade die deutsche Wissenschaft sich
+öfter mit dem eigenartigen Denkmal beschäftigt und die Rätsel zu
+lösen versucht hat, die es uns aufgibt. Trotzdem ist darin aber ein
+abschliessendes oder auch nur vorläufig befriedigendes Ergebnis
+bisher nicht erzielt worden.
+</p>
+    
+<p>
+Unter den verschiedenen Fragen, die ein Bauwerk der kunstgeschichtlichen
+Forschung zu beantworten aufgibt, muss ja an erster
+Stelle die Frage nach seiner ursprünglichen vom Erbauer beabsichtigten
+Gestaltung stehen, denn erst ihre Beantwortung gibt den
+Tat<pb n='2'/><anchor id='Pg002'/>bestand,
+    der für Stellung und Beantwortung weiterer Fragen grundlegend
+ist. Für das Grabmal des Theoderich hat es nun zwar an
+Versuchen zur Lösung dieser grundlegenden Frage nicht gefehlt;
+Mothes, Essenwein<note place="foot">Essenwein A., Die Ausgänge der klassischen Kunst, Handbuch d. Arch.
+Teil II, Bd. 3, erste Hälfte. Darmstadt 1886.</note>
+und in neuester Zeit Durm<note place="foot">Zeitschrift für bildende Kunst, Jahrg. 1906–07.</note> und
+    Haupt<note place="foot">Zeitschrift für Gesch. d. Arch. I, 1 u. 2.</note>
+haben geglaubt den ursprünglichen Zustand des eigenartigen Bauwerkes
+zu kennen, keiner aber hat allgemein überzeugen können,
+weil alle subjektiv und ohne bestimmte wissenschaftliche Methode
+<pb n='3'/><anchor id='Pg003'/>probierend das rekonstruiert haben, was der Grad ihrer Kenntnis
+des Bauwerkes, ihrer Phantasie und ihres Geschmackes, sowie
+ihrer technischen Gewissenhaftigkeit zuliess.
+</p>
+   
+<p>
+So haben mit Essenwein (<ref target="b3">Bild 3</ref>) die älteren Bearbeiter die
+im achtzehnten Jahrhundert angebauten Treppen zum Obergeschoss
+als ursprünglich angenommen, nicht vorhandene Durchbrechungen
+des Gewölbes über dem Untergeschoss und der monolithen Kuppel
+über dem Obergeschoss gezeichnet und im Anschluss an die eigenartigen
+bogenförmigen Einarbeitungen, die am oberen Teil des zehneckigen
+Hauptgeschosses sich befinden (vergl. <ref target="b1">Bild 1</ref> und <ref target="b2">2</ref>), eine
+um das Obergeschoss laufende Ringhalle ergänzt, für deren
+Herum<pb n='4'/><anchor id='Pg004'/>führung
+    um die Ecken des Gebäudes keine Möglichkeit und für
+deren Dachanschluss an die Wand keine Spuren vorhanden sind.
+So hat Haupt (<ref target="b4">Bild 4</ref>) einen ebenfalls um das ganze Obergeschoss
+herumlaufenden Bogenfries in jenen Einarbeitungen angenommen,
+der technisch unmöglich
+ist, weil er besonderer,
+nicht vorhandener und nicht
+vorhanden gewesener Befestigungsmittel
+bedurft
+hätte und überdies auch
+geschichtlich in der Erbauungszeit
+des Denkmals
+ohne jedes Beispiel ist
+(<ref target="anm1">siehe Anmerkung I</ref>). Im
+Gegensatz zu den beiden
+genannten Autoren hat
+Durm die technische Unmöglichkeit
+sowohl der
+Ringhalle wie auch des
+Bogenfrieses erkannt und
+kommt, ohne eine andere
+Erklärung für die Einarbeitungen
+über den Wandnischen
+zu haben, deshalb
+zu dem Schluss, dass diese Einarbeitung, die er „in ziemlich ungeschlachter
+Weise ausgeführt“ nennt, „Be- und Misshandlung des
+Baues aus einer späteren Zeit“ seien und „mit dem Plane des
+Architekten des grossen Theoderich nichts zu tun“ hätten. In
+seiner Rekonstruktion (<ref target="b5">Bild 5</ref>) fehlt also dem Bau jeder Wandschmuck
+ausser dem unter den bogenförmigen Einarbeitungen noch
+vorhandenen flachen rechteckigen Nischen (<ref target="anm2">siehe Anmerk. II</ref>).
+</p>
+    <index index="ill" level1="Bild 3. Das Grab des Theoderich, Rekonstruktion von Essenwein. [S. 4]"/>
+    <anchor id="b3"/>
+    <pgIf output='txt'><then>
+        <p rend="ill">[Illustration: Bild 3. Das Grab des Theoderich,
+            Rekonstruktion von Essenwein.]</p>
+    </then><else>
+<p><figure url="images/bild3.png" rend="w70">
+<head>Bild 3. Das Grab des Theoderich,<lb/>
+Rekonstruktion von Essenwein.</head>
+<figDesc>Bild 3. Das Grab des Theoderich, Rekonstruktion von Essenwein.</figDesc></figure></p>
+    </else></pgIf>
+    <index index="ill" level1="Bild 4. Das Grab des Theoderich, Rekonstruktion von Haupt. [S. 5]"/>
+    <anchor id="b4"/>
+  <pgIf output='txt'><then>
+        <p rend="ill">[Illustration: Bild 4. Das Grab des Theoderich,
+            Rekonstruktion von Haupt.]</p>
+    </then><else>
+<p><figure url="images/bild4.png" rend="w70">
+<head>Bild 4. Das Grab des Theoderich,<lb/>
+Rekonstruktion von Haupt.</head>
+<figDesc>Bild 4. Das Grab des Theoderich, Rekonstruktion von Haupt.</figDesc></figure></p>
+    </else></pgIf>
+    <index index="ill" level1="Bild 5. Rekonstruktion von Durm. [S. 6]"/>
+    <anchor id="b5"/>
+    <pgIf output='txt'><then>
+        <p rend="ill">[Illustration: Bild 5. Rekonstruktion von Durm.]</p>
+    </then><else> 
+    <p><figure url="images/bild5.png" rend="w100">
+        <head>Bild 5. Rekonstruktion von Durm.</head>
+        <figDesc>Bild 5. Rekonstruktion von Durm.</figDesc>
+    </figure></p>
+    </else></pgIf>  
+<p>
+Entgegen diesen bisherigen Versuchen zur Rekonstruktion des
+Bauwerkes kann zu wissenschaftlich einwandfreiem Ergebnis neben
+technischer Gewissenhaftigkeit nur ein methodisches Verfahren führen,
+das von der Grundwahrheit ausgeht, dass ein Bauwerk keine Willkür- oder 
+Zufallsschöpfung, sondern ein Glied in einer bestimmten
+Entwicklungsreihe ist, ebenso wie jedes organische Wesen in der
+Natur; von dem „inneren Gesetz“, das wie G. Semper sagt, „durch
+die Welt der Kunstform wie in der Natur waltet“. „So wie nämlich
+die Natur“, sagt er, „bei ihrer unendlichen Fülle doch in den Motiven
+höchst sparsam ist, wie sich eine beständige Wiederholung in ihren
+Grundformen zeigt, wie aber diese nach den Bildungsstufen der
+<pb n='5'/><anchor id='Pg005'/>Geschöpfe und nach ihren verschiedenen Daseinsbedingungen tausendfach
+modifiziert erscheinen, wie die Natur ihre Entwicklungsgeschichte
+hat, innerhalb der die alten Motive bei jeder Neugestaltung wieder
+durchblicken, ebenso liegen auch der Kunst nur wenige Normalformen
+und -Typen
+unter, die aus urältester
+Tradition stammen, in
+stetem Wiedervortreten
+dennoch eine unendliche
+Mannigfaltigkeit darbieten
+und gleich jenen
+Naturtypen ihre Geschichte
+haben“. Versuchen
+wir es also, von
+dieser unbestreitbaren
+Grundwahrheit aus einen
+geschichtlichen Überblick
+über diejenigen
+hauptsächlichen typischen
+Kunstformen zu
+erhalten, die für das
+Grabmal Theoderichs in
+Frage kommen können.
+</p>
+    
+<p>
+Es ist ein freistehendes
+monumentales Grabgebäude,
+und dafür gibt
+es seit der hellenistischen
+Zeit im Altertum einen
+bestimmten Typus, den die bedeutendsten Ausführungen übereinstimmend
+zeigen, mögen sie im einzelnen auch recht verschieden sein.
+Der Typus, der in dem Mausoleum von Halikarnass (<ref target="b6">Bild 6</ref>) seine
+höchste künstlerische Ausbildung erlangt hat, ist älter als dies Wunderwerk
+der Baukunst. Zu diesem Typus (<ref target="b7">Bild 7</ref>) gehört zunächst die
+zentrale Gestaltung des Ganzen, die auch da, wo der Grundriss, wie
+beim Grab des Mausolos selber, nicht streng zentral, sondern oblong
+ist, ihren Ausdruck in der Pyramide findet, die das Ganze zentral
+bekrönt. Von diesem zentralen Typus weichen nur diejenigen freistehenden
+hellenistischen Grabbauten ab, deren Obergeschoss die
+Tempelform wiederholt (siehe Nr. 2 auf <ref target="b7">Bild 7</ref>). Statt der wohl
+von der ägyptischen hergeleiteten hellenistischen Pyramide tritt dann,
+namentlich in römischer Kunst auch die vom alten Tumulusgrabe
+hergenommene Kegelform als obere Endigung des monumentalen
+<pb n='6'/><anchor id='Pg006'/>Grabes auf (vergl. Moles Hadriani <ref target="b8">Bild 8</ref>), vereinzelt auch im Geschmack
+des dritten nachchristlichen Jahrhunderts mit konkav geschwungener
+Meridianlinie, wie am sogenannten Grabe des Absalom
+in Jerusalem, und erst sehr spät die Kuppelform, die bei griechischen
+Zentralbauten von ähnlichem Typ aber anderer Bestimmung (Denkmal
+des Lysikrates, Nr. 4 <ref target="b7">Bild 7</ref>) sich vereinzelt schon früh findet.
+Neben der zentralen Gestaltung gehört zu diesem antiken Grabestyp
+die ganz charakteristische Aufeinanderfolge von vier verschiedenen
+Bauteilen über einander, und zwar erstens ein schlicht behandeltes
+Untergeschoss, darüber ein im Gegensatz zu diesem meist mit allen
+Mitteln architektonischer Ausgestaltung reich geschmücktes Hauptgeschoss,
+meist mit einer Tür, aber immer ohne aussen sichtbare
+Zugänglichkeit dieses Geschosses, die, wenn auch vielleicht bei
+einzelnen ganz grossen Bauten, wie beim Mausoleum in Halikarnass,
+im Innern vorhanden, niemals jedoch aussen sichtbar gemacht wurde.
+Dieser absichtlichen Abschliessung des Hauptteiles des Grabes liegt
+wohl die verständliche Empfindung zugrunde, die Ruhestätte des
+gefeierten Toten aller Störung durch die Lebenden zu entziehen,
+    <pb n='8'/><anchor id='Pg008'/>eine Anschauung, die bei den hoch gelegenen in den steilen Abhang
+gehauenen Felsengräbern alter Zeit, wie dem Grab des Darius, noch
+deutlicher zum Ausdruck gelangt. Über diesem Hauptgeschoss
+erhebt sich häufig (Mausoleum <ref target="b6">Bild 6</ref> u. <ref target="b7">7</ref>) ein niedriger schlicht
+<sic corr="gehaltener">gehaltenener</sic> Bauteil, der die Silhouette des Bauwerkes an dieser<pb n='10'/><anchor id='Pg010'/>
+Stelle verjüngt und als Unterbau für den vierten Bauteil, die das
+Ganze bekrönende Pyramiden-, Kegel- oder Kuppel-Form dient.
+Diese Bekrönung klingt dann in der Regel nach oben in plastischem
+Schmuck aus.
+</p>
+    <index index="ill" level1="Bild 6. Perspektivische Ansicht des Mausoleums von Halikarnass. Rekonstruktion von J. Bühlmann. [S. 7]"/>
+    <anchor id="b6"/>
+    <pgIf output='txt'><then>
+        <p rend="ill">[Illustration: Bild 6. Perspektivische Ansicht des Mausoleums von Halikarnass. Rekonstruktion von J. Bühlmann.
+            (Zeitschrift f. Gesch. d. Arch. II S. 19.)]</p>
+    </then><else>
+        <p><figure url="images/bild6.jpg" rend="w100">
+            <head>Bild 6. Perspektivische Ansicht des Mausoleums von Halikarnass. Rekonstruktion von J. Bühlmann.<lb/>
+                (Zeitschrift f. Gesch. d. Arch. II S. 19.)</head>
+            <figDesc>Bild 6. Perspektivische Ansicht des Mausoleums von Halikarnass. Rekonstruktion von J. Bühlmann. (Zeitschrift f. Gesch. d. Arch. II S. 19.)</figDesc></figure></p>
+    </else></pgIf>
+    <index index="ill" level1="Bild 7. Vergleichende Zusammenstellung des Mausoleums zu Halikarnass mit anderen antiken Denkmälern in einheitlichem Masstabe, von J. Bühlmann. [S. 8]"/>
+    <anchor id="b7"/>
+    <pgIf output='txt'><then>
+        <p rend="ill">[Illustration: Bild 7. Vergleichende Zusammenstellung des Mausoleums zu Halikarnass
+            mit anderen antiken Denkmälern in einheitlichem Masstabe, von J. Bühlmann
+                (Zeitschrift f. Gesch. d. Arch. II S. 17).]</p>
+    </then><else>
+        <p><figure url="images/bild7.png" rend="w100">
+            <head>Bild 7. Vergleichende Zusammenstellung des Mausoleums zu Halikarnass
+                mit anderen antiken Denkmälern in einheitlichem Masstabe, von J. Bühlmann<lb/>
+                (Zeitschrift f. Gesch. d. Arch. II S. 17).</head>
+            <figDesc>Bild 7. Vergleichende Zusammenstellung des Mausoleums zu Halikarnass
+                mit anderen antiken Denkmälern in einheitlichem Masstabe, von J. Bühlmann
+                (Zeitschrift f. Gesch. d. Arch. II S. 17).</figDesc>
+        </figure></p>
+    </else></pgIf>
+    <index index="ill" level1="Bild 8. Moles Hadriani, Rekonstruktion von Vandremer (1858). [S. 9]"/>
+    <anchor id="b8"/>
+    <pgIf output='txt'><then>
+        <p rend="ill">[Illustration: Bild 8. Moles Hadriani, Rekonstruktion von Vandremer (1858).]</p>
+    </then><else>
+    <p><figure url="images/bild8.jpg" rend="w100">
+        <head>Bild 8. Moles Hadriani, Rekonstruktion von Vandremer (1858).</head>
+        <figDesc>Bild 8. Moles Hadriani, Rekonstruktion von Vandremer (1858).</figDesc></figure></p>
+    </else></pgIf>
+<p>
+Diese allgemein typischen Anordnungen, die durch die ganze
+hellenistisch-römische Zeit beibehalten werden, finden wir nun auch
+beim Grab des Theoderich sämtlich wieder: Das schlicht behandelte
+hohe Untergeschoss, darüber das Hauptgeschoss, dessen Wände flach
+verzierte Nischen und jene bogenförmigen und anderen Einarbeitungen
+enthalten, die auf einen ursprünglich reichen Schmuck schliessen
+lassen. Nach Analogie der anderen Beispiele des gekennzeichneten
+Typs müssen wir von vornherein als wahrscheinlich annehmen, dass
+dieser Schmuck vor die Wand soweit vortrat, dass in der Silhouette
+des Ganzen das Hauptgeschoss nicht wesentlich schmaler erschien
+als das Untergeschoss. Dann folgt als dritter der hier mit kleinen
+Fenstern versehene, als Unterbau des vierten, der flachen monolithen
+Kuppel, dienende zylindrische Bauteil. Oben auf der Kuppel befindet
+sich eine erhabene viereckige Anarbeitung, welche Löcher
+enthält, die von der Aufstellung irgend eines bekrönenden Schmuckes
+herrühren werden.
+</p>
+
+<p>
+Die Frage nach der ursprünglichen äusseren Gestalt des Grabmals
+im einzelnen umschliesst nun die Unterfragen, erstens nach
+der Art des architektonischen Schmuckes der Obergeschosswände
+oder nach der Bedeutung der an ihnen befindlichen Einarbeitungen
+und zweitens nach der Art des oberen Abschlusses des Untergeschosses.
+Die jetzige das Untergeschoss abschliessende Schicht ist
+nämlich augenscheinlich gleichzeitig mit den Treppen, also nachträglich
+hergestellt, wieviel etwa auch von der zweiten Schicht, lässt
+sich m. E. nicht sicher entscheiden, da der Treppenanbau mit demselben
+Material wie der alte Bau und mit virtuoser Anpassung an
+die alte Technik ausgeführt ist. Dazu kann drittens noch die wohl
+schwerlich zu entscheidende Frage treten, welche Form die vermutliche
+Bekrönung auf der Kuppel hatte. Alles andere am Äusseren
+ist fraglos der alte ursprüngliche Zustand.
+</p>
+
+<p>
+Die Hauptfrage nach der architektonischen Durchbildung der
+zehn Wände des Hauptgeschosses kann nun nur beantwortet werden
+auf Grund einer allgemeinen Entwicklungsgeschichte der architektonisch
+ausgebildeten Wand für einen möglichst langen Zeitraum, der
+die Erbauungszeit des Denkmals mit umfasst. Gerade die Entwicklungsgeschichte
+der Wand ist aber bisher nur recht unvollkommen
+bekannt und in der Formenlehre der antiken Architektur gegenüber
+den Säulenordnungen arg vernachlässigt. So kennt das beste Lehr<pb n='11'/><anchor id='Pg011'/>buch,
+das wir über die Baukunst der Römer
+haben<note place="foot">Durm, Die Baukunst der Römer, Handb. d. Arch. II, Bd. 2.</note>, überhaupt
+kein besonderes Kapitel über die formale Ausbildung der Wand und
+Oskar Bie<note place="foot">Die Wand und ihre künstlerische Behandlung von Oskar Bie, in dem
+Sammelwerk „Die Kunst“ von Richard Muther, S. 4.</note> versteigert sich sogar zu der Bemerkung, „eine ständige
+öffentliche Wanddekoration von Bedeutung scheine es im Altertume
+nicht gegeben zu haben!“
+</p>
+
+<p>
+Das was der moderne Architekt das Problem der Fassade
+nennt, die Aufgabe, das Äussere eines Gebäudes schön durchzubilden,
+ist bereits an den ältesten griechischen Tempeln des
+siebenten Jahrhunderts in klassischer Weise gelöst durch die Erfindung
+der den Tempel umgebenden Ringhalle (Pteron). Man war
+sich im Altertum klar darüber, und auch Vitruv hebt es ausdrücklich
+hervor, dass die Ringhalle des Tempels weniger praktischen
+Zwecken, wie etwa dem Schutze des Publikums gegen das Wetter,
+diente, als vielmehr die Aufgabe hatte, die Würde des Gotteshauses
+in seiner äusseren Erscheinung zu erhöhen. In ihrer klaren Dreiteilung
+in Unterbau, tragende Säulen und getragenes Gebälk hat
+die Ringhalle ja der klassischen griechischen Kunst Veranlassung zu
+jener beständig vervollkommneten, in den Gesamtverhältnissen und den
+Einzelheiten unübertrefflich feinen Durchbildung von Säule und Gebälk
+gegeben, die den wesentlichen Wert der griechischen Architektur
+für alle Folgezeit ausmacht. Gegen die reiche Ausbildung des
+Pterons musste nun die dahinter liegende Wand um so mehr zurückstehen,
+als gerade in der Gegensatzwirkung der glatten, wenig ausgebildeten
+Wandfläche zu dem reichen Wechsel von Licht und
+Schatten, den das Pteron and seine Einzelformen boten, ein Hauptreiz
+der Architektur lag. So ist es erklärlich, dass, solange der
+Monumentalbau sich im wesentlichen auf den Tempel beschränkte,
+die Wand eine schlichte, wenig veränderte und im Gegensatz zu
+dem Vertikalismus des Pterons auf horizontale Gliederung beschränkte
+Ausbildung erfuhr und dass diese einfache Erscheinung
+der Wand auch in späterer Zeit fast überall da erhalten wurde, wo
+ein Pteron vor die Wand trat. Eine vortretende häufig profilierte
+<sic>Fusschicht</sic>, darüber an dem gegen Beschädigung besonders zu schützenden
+unteren Teil der Wand eine Sockelschicht aus grossen aufrecht
+stehenden Steinen (Orthostaten), die also dem entspricht, was wir
+heute Paneel nennen, darauf häufig eine die Doppelreihe der Orthostaten
+zusammenfassende und abdeckende Schicht, die als wenig
+vortretendes Gurtgesims in die Erscheinung treten kann, und dann
+die glatte ungegliederte Wandfläche, die oben mit einem Kopfgesims
+    <pb n='12'/><anchor id='Pg012'/>mit Halsstreifen gekrönt ist, das ist die typische Horizontalgliederung
+der Wand. Hinzugefügter Schmuck tritt ebenfalls in wagrecht
+fortlaufenden Reihungen und immer nur an den genannten wagrechten
+Gliederungen auf, in reichster Weise ausgebildet in Form
+des plastischen Figurenfrieses, der bei Bauten der klassischen Zeit
+auf dem Halsstreifen der Wand auftritt (Parthenon), später auch
+gelegentlich an anderer Stelle.
+</p>
+
+<p>
+Mit der grösseren Bedeutung und monumentaleren Ausbildung
+auch der Profanarchitektur in hellenistischer Zeit tritt aber für die
+Wand ein allgemeineres grösseres Schmuckbedürfnis auf und wird
+zunächst in der Weise befriedigt, dass die Werkform des noch nicht
+glatt abgearbeiteten mit Randschlag und Bossenspiegel versehenen
+Quaders als Schmuckmotiv aufgefasst und in der Form und durch
+Farbe dazu weiter ausgebildet wird. Dann aber wird ein neuer, für
+die ganze weitere Entwicklung der Wand bestimmender Schritt dadurch
+getan, dass gemalte oder plastisch dargestellte Stützen, wie
+es scheint, wohl zunächst nur den oberen Teil der Wand, dann
+aber die ganze Höhe der Wand vertikal gliedern. Ob die uns erhaltenen
+Marmorreliefs der hellenistischen Zeit, die für diese
+Periode die früheren fortlaufenden Friese zum Teil ersetzt zu haben
+scheinen, zum Flächenschmuck für die so entstehenden Interkolumnienfelder
+gedient haben, lässt sich bis jetzt nicht nachweisen, man kann
+es aber vermuten, weil im folgenden Abschnitt der Entwicklung,
+von Augusteischer Zeit an, vollplastische Figuren in Wandnischen
+demselben Zweck dienen, mittleres Schmuckstück von Interkolumnien
+einer Säulenarchitektur zu sein, die in ihrer Bedeutung gesteigert,
+nun über die Höhe der ganzen Wand reicht und zu kräftigerer
+Schattenwirkung gebracht aus Dreiviertel- oder Vollsäulen vor der
+Wandfläche besteht. Der Steigerung des flachen Wandpilasters zur
+Vollsäule würde ja auch die Steigerung des figürlichen Reliefs zum
+Vollbild in einer Nische genau entsprechen. Von hier an können
+wir die folgende Entwicklung sicherer verfolgen. Sie beruht auf
+der weiteren Durchbildung der Statuennische und auf der Zusammenstellung
+von mehreren solcher Nischen. Zwei Formen von
+Nischen treten auf: die im Grundriss rechteckige, die auch in der
+Ansicht oben horizontal endigt, und die im Grundriss halbkreisförmige
+Nische, die auch oben mit einer Halbkugel abgeschlossen
+ist, beide Formen von Pilastern, Halbsäulen oder frei davorgestellten
+Vollsäulen flankiert, die bei der rechteckigen Nische ein vollständiges
+Säulengebälk mit dreieckigem oder flachbogig geschlossenem Giebel
+tragen (Ädicula), und bei der Halbkreisnische ein um die Stirn der
+Halbkuppel herum geführtes vollständiges oder unvollständiges Gebälk
+    <pb n='13'/><anchor id='Pg013'/>aufnehmen, während die Halbkuppel selbst in der Regel mit einer
+Muschel geschmückt ist (Concha, <ref target="b9">Bild 9</ref> u.
+    <ref target="b10">10</ref>)<note place="foot">Vergl. Bruno Schulz, Bogenfries und Giebelreihe in der römischen
+Baukunst, Jahrb. des kaiserl. archäolog. Instituts, Bd. XXI, 1906, S. 221 ff.</note>. Diese architektonisch
+ausgebildeten Nischen, Ädiculen und Conchen, werden dann auch
+in Wandflächen angebracht, die nicht durch Pilaster oder Säulen
+vertikal in Felder geteilt sind, wo also
+wegen der Breite der Wandfläche mehrere
+Nischen nebeneinander Platz finden,
+und wo nun die nebeneinander gesetzten
+Nischen zu einer Reihe verbunden
+werden können (<ref target="b11">Bild 11</ref> u. <ref target="b12">12</ref>).
+Solche Reihen von Conchen und Ädiculen
+mit menschlichen Figuren in den
+von Säulen flankierten Nischen sind
+dann in der Zeit der Völkerwanderung
+das bedeutendste und fast ausschliesslich
+angewandte Motiv zur Dekoration von
+Wandflächen und treten überall auch
+in der Kleinkunst an Sarkophagen
+(<ref target="b13">Bild 13</ref>), an Elfenbeinschnitzereien
+(Vergl. Diptychon des Boetius in Monza,
+<ref target="b28">Bild 28</ref>) als bevorzugter Flächenschmuck
+auf. <ref target="b14">Bild 14</ref> gibt ein Beispiel auch aus
+der germanischen Kunst der Völkerwanderungszeit<note place="foot">Nach A. Haupt,
+    Die älteste Kunst insbesondere die Baukunst der Germanen.
+Leipzig, 1909. Abb. 55.</note>.
+</p>
+    <index index="ill" level1="Bild 9. [S. 13]"/>
+    <anchor id="b9"/>
+    <pgIf output='txt'><then>
+        <p rend="ill">[Illustration: Bild 9.]</p>
+    </then><else>
+<p><figure url="images/bild9.png" rend="w60">
+<head>Bild 9.</head>
+<figDesc>Bild 9.</figDesc></figure></p>
+    </else></pgIf>
+    <index index="ill" level1="Bild 10. [S. 14]"/>
+    <anchor id="b10"/>
+    <pgIf output='txt'><then>
+        <p rend="ill">[Illustration: Bild 10.]</p>
+    </then><else>
+    <p><figure url="images/bild10.jpg" rend="w80">
+        <head>Bild 10.</head>
+        <figDesc>Bild 10.</figDesc></figure></p>
+    </else></pgIf>
+    <index index="ill" level1="Bild 11. Schema einer Ädiculenreihe, in zwei Variationen. [S. 15]"/>
+    <anchor id="b11"/>
+    <pgIf output='txt'><then>
+        <p rend="ill">[Illustration: Bild 11. Schema einer Ädiculenreihe, in zwei Variationen.]</p>
+    </then><else>
+    <p><figure url="images/bild11.png" rend="w100">
+        <head>Bild 11. Schema einer Ädiculenreihe, in zwei Variationen.</head>
+        <figDesc>Bild 11. Schema einer Ädiculenreihe, in zwei Variationen.</figDesc>
+    </figure></p>
+    </else></pgIf>
+    <index index="ill" level1="Bild 12. Conchenreihe der Porta aurea des Diokletianpalastes in Spalato. [S. 15]"/>
+    <anchor id="b12"/>
+        <pgIf output='txt'><then>
+            <p rend="ill">[Illustration: Bild 12. Conchenreihe der Porta aurea des Diokletianpalastes in Spalato.]</p>
+        </then><else>
+    <p><figure url="images/bild12.png" rend="w100">
+        <head>Bild 12. Conchenreihe der Porta aurea des Diokletianpalastes in
+            Spalato.</head>
+        <figDesc>Bild 12. Conchenreihe der Porta aurea des Diokletianpalastes in Spalato.</figDesc>
+    </figure></p>
+        </else></pgIf>
+    <index index="ill" level1="Bild 13. Sarkophag vom Ende des 4. Jahrhunderts: Christus mit Aposteln. S. Francesco, Ravenna. [S. 16]"/>
+    <anchor id="b13"/>
+            <pgIf output='txt'><then>
+                <p rend="ill">[Illustration: Bild 13. Sarkophag vom Ende des 4. Jahrhunderts: Christus mit Aposteln.
+                    S. Francesco, Ravenna.]</p>
+            </then><else>
+    <p><figure url="images/bild13.jpg" rend="w100">
+        <head>Bild 13. Sarkophag vom Ende des 4. Jahrhunderts: Christus mit Aposteln.<lb/>
+            S. Francesco, Ravenna.</head>
+        <figDesc>Bild 13. Sarkophag vom Ende des 4. Jahrhunderts: Christus mit Aposteln. S. Francesco, Ravenna.</figDesc>
+    </figure></p>
+            </else></pgIf>
+    <index index="ill" level1="Bild 14. S. Miquel de Lino. Säulenfuss. [S. 16]"/>
+    <anchor id="b14"/>
+                <pgIf output='txt'><then>
+                    <p rend="ill">[Illustration: Bild 14. S. Miquel de Lino. Säulenfuss.]</p>
+                </then><else>
+    <p><figure url="images/bild14.jpg" rend="w100">
+        <head>Bild 14. S. Miquel de Lino. Säulenfuss.</head>
+        <figDesc>Bild 14. S. Miquel de Lino. Säulenfuss.</figDesc></figure></p>
+                </else></pgIf>
+<p>Betrachten wir mit dieser Kenntnis der Wanddekoration der
+Zeit die Wände des oberen Zehnecks am Grabmal des Theoderich.
+Acht von ihnen sind übereinstimmend ausgebildet, besonders gestaltet
+nur die Westwand wegen der darin befindlichen Tür und
+die Ostwand wegen eines daraus hervorragenden Vorbaues, der im
+Innern eine Nische enthält. Die acht übereinstimmenden Seiten
+enthalten je zwei flache rechteckige Nischen (<ref target="b1">Bild 1</ref> u. <ref target="b2">2</ref>), die an
+ihrem Sturz mit Ornament in feinem Masstab (<ref target="b15">Bild 15</ref>) versehen
+sind. Über diesen Nischenpaaren befindet sich die Einarbeitung,
+deren Rückfläche rauh gelassen, deren Kanten aber sorgfältig an
+allen acht Wänden übereinstimmend ausgeführt sind; sie schliesst
+nach unten mit einem Paar von axial über jeder der beiden Nischen
+sitzenden Rundbögen ab, unter deren drei horizontalen Kämpferlinien
+sich je eine rechteckige Fortsetzung der Einarbeitung von
+    <pb n='15'/><anchor id='Pg015'/>17 bis 19 cm Breite und 44 cm Höhe befindet. Seitlich gegen die
+Kanten des Gebäudes hin hören die Einarbeitungen an allen zehn
+Wänden mit steil schräg aufsteigenden Linien auf. Die an den
+oberen Ecken des Zehnecks um die Ecken laufenden Einarbeitungen
+haben nur 5 bis 6 cm Höhe und sind augenscheinlich nur eine
+spätere Verstümmelung der ursprünglich glatt bis oben durchlaufenden
+Eckkanten. Die ganze Dekoration war also offenbar für jede einzelne
+Wand getrennt ausgebildet, mit Ausnahme je eines die Türwand
+mit den Nachbarwänden verbindenden Horizontalstreifens, der
+weiter unten noch besprochen werden soll. Da diese Einarbeitungen
+an den Wänden zweifellos nur den Zweck gehabt haben können,
+Verdachungssteine für die darunter befindlichen Nischen darin einbinden
+zu lassen, und da an der Wand anderweitige Befestigungsmittel
+für diese Steine ausser der Einarbeitung nicht vorhanden sind
+    <pb n='17'/><anchor id='Pg017'/>und nicht vorhanden gewesen sein können, so folgt technisch notwendig,
+dass jene Verdachungssteine noch eine anderweitige Unterstützung
+vor der Wand gehabt haben müssen. Und das können
+der Sachlage nach nur drei Säulen gewesen sein, die die beiden
+Nachbarnischen flankierten. So ergibt sich als
+Dekorationsmotiv der Wand aus technischer Erwägung genau
+das, was wir als typisches Dekorationsmotiv
+der Zeit historisch kennen gelernt haben: ein
+von Säulen flankiertes mit Rundbogengebälk bekröntes Nischenpaar
+(<ref target="b15">Bild 15</ref> rechts). Die steil schräg nach oben aufsteigenden seitlichen
+Endigungen der Einarbeitung über jedem Nischenpaar sind nichts
+als die gradlinigen Umschreibungen der ausladenden Gesimskröpfe,
+mit denen die Bogensteine hier gegen die Wand endigen. <ref target="b16">Bild 16</ref>
+zeigt zwei beiderseitig mit ähnlichem schrägen Abschluss in die
+Mauer eingelassene Steine aus den Substruktionen des grossen Tempels
+in Baalbek, die in ganz ähnlicher Weise das halbkreisförmige und
+das giebelförmige Bekrönungsgebälk einer Nische tragen. Am goldenen
+Tor an der Ostseite des Harâm-esch-Scherîf in Jerusalem (<ref target="b17">Bild 17</ref>)
+sehen wir ein ganz ähnliches System von zwei Rundbogengebälken,
+hier ehemals auf zwei seitlichen Pilastern und einer Mittelsäule, wie
+    <pb n='18'/><anchor id='Pg018'/>wir es am Theoderichgrab uns zu ergänzen haben, das mit seinen
+Gesimskröpfen hier bereits mit einer ebenso steilen fast geraden
+Linie an die Wand anschneidet. Die auf <ref target="b14">Bild 14</ref> dargestellte westgotische
+Basis ist als Parallele zur Wanddekoration des Theoderichgrabes 
+darum ganz besonders interessant, weil hier die gekuppelten
+Bogennischen, in denen menschliche Figuren zwischen den Säulen
+stehen, oben mit Bogen und Eckakroterien frei endigen, also durchaus
+nicht mit einer Säulenarkade verwechselt werden können.
+</p>
+    <index index="ill" level1="Bild 15. Die acht gleichen Wände des Obergeschosses. [S. 17]"/>
+    <anchor id="b15"/>
+                    <pgIf output='txt'><then>
+                        <p rend="ill">[Illustration: Bild 15. Die acht gleichen Wände des Obergeschosses.]</p>
+                    </then><else>
+    <p><figure url="images/bild15.png" rend="w100">
+        <head>Bild 15. Die acht gleichen Wände des Obergeschosses.</head>
+        <figDesc>Bild 15. Die acht gleichen Wände des Obergeschosses.</figDesc>
+    </figure></p>
+                    </else></pgIf>
+    <index index="ill" level1="Bild 16. Aedicula und Conche mit besonders eingesetzten Steinen für die Verdachungen, aus den Substruktionen des grossen Tempels in Baalbeck. [S. 18]"/>
+    <anchor id="b16"/>
+                        <pgIf output='txt'><then>
+                            <p rend="ill">[Illustration: Bild 16. Aedicula und Conche mit besonders eingesetzten Steinen für die
+                                Verdachungen, aus den Substruktionen des grossen Tempels in Baalbeck.]</p>
+                        </then><else>
+<p><figure url="images/bild16.png" rend="w100">
+<head>Bild 16. Aedicula und Conche mit besonders eingesetzten Steinen für die
+Verdachungen, aus den Substruktionen des grossen Tempels in
+Baalbeck.</head>
+<figDesc>Bild 16. Aedicula und Conche mit besonders eingesetzten Steinen für die
+Verdachungen, aus den Substruktionen des grossen Tempels in
+Baalbeck.</figDesc>
+</figure></p>
+                        </else></pgIf>
+    <index index="ill" level1="Bild 17. Das goldene Tor in Jerusalem, Feldseite. [S. 19]"/>
+    <anchor id="b17"/>
+    <pgIf output='txt'><then>
+        <p rend="ill">[Illustration: Bild 17. Das goldene Tor in Jerusalem, Feldseite.]</p>
+    </then><else>
+    <p><figure url="images/bild17.jpg" rend="w100">
+        <head>Bild 17. Das goldene Tor in Jerusalem, Feldseite.</head>
+        <figDesc>Bild 17. Das goldene Tor in Jerusalem, Feldseite.</figDesc></figure></p>
+    </else></pgIf>
+<p>
+Es ergibt sich also als ursprüngliche Dekoration der acht
+gleichen Seiten des Hauptgeschosses je ein Paar der typischen, mit
+Säulen und Rundbogengebälk geschmückten Nischen, die als Umrahmung
+und Hintergrund für figürlichen Schmuck zu denken sind.
+Dass Standspuren für die Säulen und die Statuen nicht mehr vorhanden
+sind, ist durch die Erneuerung der obersten Schicht des
+Unterbaues bei Anlage der Treppe verschuldet. Die vermutlich
+aus Marmor hergestellten Dekorationsstücke sind vielleicht bereits
+<pb n='19'/><anchor id='Pg019'/>bei der schon kurze Zeit nach dem Tode des grossen Theoderich
+von Belisar veranlassten Schändung seines Grabes zerschlagen und
+verloren gegangen. Im Museum zu Ravenna (Inv.-Nr. 509) befindet
+sich jedoch ein kleines Säulenkapitell (<ref target="b18">Bild 18</ref>) aus weissem Marmor
+mit zwölfteiligem Akanthuskelch und einem als Lorbeerblattstrang
+ausgebildeten Halsglied, im Stil der Ausführung wie die Kapitelle
+Theoderichs aus der Herkulesbasilika, das einem oberen
+Säulen<pb n='20'/><anchor id='Pg020'/>durchmesser von 18 bis 19 cm entspricht und 25 cm Höhe hat,
+also nach Stilform und Abmessung wohl zum Wandschmuck des
+Theoderichgrabes gehört haben kann.
+</p>
+    <index index="ill" level1="Bild 18. Säulenkapitell im Museum zu Ravenna. [S. 20]"/>
+    <anchor id="b18"/>
+        <pgIf output='txt'><then>
+            <p rend="ill">[Illustration: Bild 18. Säulenkapitell im Museum zu Ravenna.]</p>
+        </then><else>
+<p><figure url="images/bild18.jpg" rend="w80">
+<head>Bild 18. <corr sic="Säulenkapitel">Säulenkapitell</corr> im Museum zu Ravenna.</head>
+<figDesc>Bild 18. Säulenkapitell im Museum zu Ravenna.</figDesc>
+</figure></p>
+        </else></pgIf>
+<p>
+Der an der Ostseite befindliche Nischenausbau ist aussen
+(<ref target="b19">Bild 19</ref>), wie die Einarbeitungen darüber an der Wand beweisen,
+von demselben Bogenpaar bedeckt und bekrönt gewesen wie die
+Nischen an den übrigen Wänden und dieses Bogenpaar muss natürlich
+in seiner Vorsprungtiefe mit der 84 cm betragenden Vorsprungtiefe
+der Nische überein gestimmt haben. Die an den beiden Ecken
+der Nische angearbeiteten Rundstäbe von 20 cm Durchmesser
+können spätere Zutaten sein, können aber auch die beiden äusseren
+der vor den übrigen Wänden stehenden drei Säulen haben andeuten
+sollen (<ref target="b20">Bild 20</ref>). Nimmt man nun die Vorsprungstiefe der Verdachungen
+an den übrigen Wänden, wie es natürlich ist, ebenfalls
+wie an der Ostmauer mit 84 cm an, so verliert das Bauwerk dadurch
+in seiner ursprünglichen fertigen Gestalt (<ref target="b21">Bild 21</ref>) einen schweren
+ästhetischen Mangel, den es heute hat, und der darin liegt, dass für
+    <pb n='21'/><anchor id='Pg021'/>den Blick von Norden oder
+Süden das Vortreten des
+Nischenbaues an der oberen
+Ostwand eine hässliche
+Störung der sonst von
+unten an streng symmetrischen
+Silhouette des Grabmals
+ist.
+</p>
+    <index index="ill" level1="Bild 19. Die Ostseite des oberen Zehnecks. Jetziger Zustand. [S. 21]"/>
+    <anchor id="b19"/>
+    <pgIf output='txt'><then>
+        <p rend="ill">[Illustration: Bild 19. Die Ostseite des oberen Zehnecks.
+            Jetziger Zustand.]</p>
+    </then><else>
+<p><figure url="images/bild19.png" rend="w70">
+<head>Bild 19. Die Ostseite des oberen Zehnecks.<lb/>
+Jetziger Zustand.</head>
+<figDesc>Bild 19. Die Ostseite des oberen Zehnecks. Jetziger Zustand.</figDesc></figure></p>
+    </else></pgIf>
+    <index index="ill" level1="Bild 20. Die Ostseite des oberen Zehnecks. Ursprünglicher Zustand. [S. 21]"/>
+    <anchor id="b20"/>
+        <pgIf output='txt'><then>
+            <p rend="ill">[Illustration: Bild 20. Die Ostseite des oberen Zehnecks.
+                Ursprünglicher Zustand.]</p>
+        </then><else>
+<p><figure url="images/bild20.png" rend="w70">
+<head>Bild 20. Die Ostseite des oberen Zehnecks.<lb/>
+Ursprünglicher Zustand.</head>
+<figDesc>Bild 20. Die Ostseite des oberen Zehnecks. Ursprünglicher Zustand.</figDesc></figure></p>
+        </else></pgIf>
+    <index index="ill" level1="Bild 21. Das Theoderich-Grabmal von Süden gesehen. Ursprüngliche symmetrische Umrisslinie. [S. 22]"/>
+    <anchor id="b21"/>
+    <pgIf output='txt'><then>
+        <p rend="ill">[Illustration: Bild 21. Das Theoderich-Grabmal von Süden gesehen.
+            Ursprüngliche symmetrische Umrisslinie.]</p>
+    </then><else>
+    <p><figure url="images/bild21.png" rend="w80">
+        <head>Bild 21. Das Theoderich-Grabmal von Süden gesehen.<lb/>
+            Ursprüngliche symmetrische Umrisslinie.</head>
+        <figDesc>Bild 21. Das Theoderich-Grabmal von Süden gesehen. Ursprüngliche symmetrische Umrisslinie.</figDesc></figure></p>
+    </else></pgIf>
+<p>
+Die Ausbildung der
+Tür an der Westwand des
+oberen Zehnecks (<ref target="b22">Bild 22</ref>)
+scheint bisher in ihrem
+jetzigen Zustand immer für
+vollständig erhalten angesehen
+worden zu sein, und
+man hat die beiden rechteckigen
+Einbindungslöcher
+unmittelbar neben ihrem
+Sturz noch weniger zu erklären
+gewusst, wie die
+übrigen Einarbeitungen.
+Nach Lage und Form sind
+aber diese beiden Einbindungslöcher
+zweifellos
+einmal dazu bestimmt gewesen, 
+die typischen Türkonsolen
+aufzunehmen, wie
+sie seit dem Erechtheion
+zu fast jeder vornehmen
+antiken Tür gehören. Diese
+Konsolen werden bereits
+um 300 n. Chr. (Diocletians
+Palast in Spalato <ref target="b23">Bild 23</ref>)
+ihrem Beruf, die Hängeplatte
+der Verdachung zu
+stützen, untreu und sitzen
+als blosse Zierstücke neben
+dem Türsturz, häufig auch
+in umgekehrter Form, das
+oberste zu unterst. Also
+ist auch die Tür in spät
+römischer Tradition ent<pb n='22'/><anchor id='Pg022'/>worfen;
+und damit ist auch klar, dass die fein gezahnte sehr
+schwache Hängeplatte, die von einer Reihe kleiner Akanthuskonsolen
+gestützt, an den Türsturz angearbeitet ist (vgl. die Tür
+in Spalato <ref target="b23">Bild 23</ref>), für die kräftig umrahmte Tür nicht das vollständige
+Bekrönungsgesims ist, dass darüber vielmehr als eigentlich
+bekrönendes Glied noch die typische ornamentierte Sima zu ergänzen
+ist. Sie muss auf der Hängeplatte ohne Dübelbefestigung
+gelegen haben (Dübellöcher sind nicht vorhanden) und griff vielleicht
+mit einem kleinen angearbeiteten Ansatz in den horizontalen
+Schlitz zwischen Türsturz und Entlastungsbogen etwas ein. An den
+nach innen senkrecht gradlinigen Kanten der beiden anderen Einarbeitungen
+an der Türwand ist zu ersehen, dass das Türbekrönungsgesims 
+hier vertikal
+heruntergekröpft war;
+und das ist dieselbe
+Anordnung wie bei
+dem simaförmigen
+Profil über der Tür
+im Untergeschoss, die
+noch vollständig erhalten
+ist. Die übrige
+Form dieser seitlichen
+Einarbeitungen zeigt,
+dass auch hier wieder
+das gekröpfte Gebälk
+über je einer Einzelsäule
+neben der Tür
+sich gegen die Wand
+totlief, hier aber nur
+teilweise; ein Teil des
+Gesimses lief jederseitig 
+um die Ecke
+und verband so die
+sonst ganz vereinzelt
+stehenden, die Tür flankierenden Säulen mit der Architektur der
+beiden Nebenwände. Nach Ergänzung der Sima über der Tür sitzt
+dann auch die Konsole (Trapezform 25 cm untere Breite und 26 cm
+Höhe) über der Tür dicht über dem Bekrönungsgesims und wirkt
+mit einem darauf zu ergänzenden Schmuckstück, vielleicht einem
+Kreuz oder einem Porträt des Theoderich, als Mittelbekrönung der
+Tür. So war die ursprüngliche äussere Erscheinung des Grabmals,
+abgesehen von einer oben auf der Kuppel wohl noch hinzuzudenken<pb n='23'/><anchor id='Pg023'/>den
+Bekrönung des Ganzen, etwa so, wie auf dem Titelbild dargestellt.
+</p>
+    <index index="ill" level1="Bild 22. Die Türwand des Obergeschosses. [S. 23]"/>
+    <anchor id="b22"/>
+        <pgIf output='txt'><then>
+            <p rend="ill">[Illustration: Bild 22. Die Türwand des Obergeschosses.]</p>
+        </then><else>
+<p><figure url="images/bild22.png" rend="w100">
+<head>Bild 22. Die Türwand des Obergeschosses.</head>
+<figDesc>Bild 22. Die Türwand des Obergeschosses.</figDesc></figure></p>
+        </else></pgIf>
+    <index index="ill" level1="Bild 23. Tür am sogen. Äskulaptempel in Spalato. [S. 24]"/>
+    <anchor id="b23"/>
+    <pgIf output='txt'><then>
+        <p rend="ill">[Illustration: Bild 23. Tür am sogen. Äskulaptempel in Spalato.]</p>
+    </then><else>
+    <p><figure url="images/bild23.jpg" rend="w80">
+        <head>Bild 23. Tür am
+            sogen. Äskulaptempel in Spalato.</head>
+        <figDesc>Bild 23. Tür am sogen. Äskulaptempel in Spalato.</figDesc>
+    </figure></p>
+    </else></pgIf>
+<p>
+Vom Inneren des Bauwerkes hat besonders der obere runde
+Innenraum mit der nach Osten gerichteten Nische Interesse. In
+diesem Raum (<ref target="b24">Bild 24</ref>) muss der grosse Gotenkönig bestattet gewesen
+sein. Seine Wand ist einst mit Marmor-Inkrustation versehen
+gewesen, wie Isabelle<note place="foot">M. E. Isabelle, Les édifices circulaires et les dômes. Paris 1855.</note> richtig gesehen hat. Das zeigt erstens die
+Flächenbeschaffenheit der Wand. Fein gespitzte und von einem
+Saumschlag umzogene Quaderflächen gelten bei Innenräumen dieser
+Zeit nicht, wie Durm meint, für fertig gearbeitet und für die Ansicht
+bestimmt. Dann aber beweisen es auch die in ziemlich regelmässiger
+Anordnung noch vorhandenen mit Blei verstemmten Eisenpflöcke.
+Von diesen läuft eine horizontale Reihe besonders starker,
+in Höhe von ca. 53 cm über dem Fussboden um den Raum herum 5
+zwei Reihen schwächerer Eisen sitzen in den Fugen 1,77 m und
+2,64 m über dem Fussboden und eine vierte Reihe in der Fuge
+    <pb n='25'/><anchor id='Pg025'/>unter der oben herumlaufenden gesimsartig vortretenden Schicht.
+Mit dem einstigen Vorhandengewesensein einer Inkrustation stimmt
+es auch überein, dass jene obere Schicht (<ref target="b25">Bild 25</ref>) ohne Unterglied
+mit horizontaler Unterfläche
+10 cm vor die Wandfläche
+vortritt, und dass
+auch das an dem Schlussteine
+des Bogens über der
+Nische gearbeitete Kreuz
+von nur 61 cm Höhe die
+für diese Grösse ungeheuerliche 
+Reliefstärke von
+15 cm hat, sowie dass an
+dem unteren Kreuzarm
+noch die Reste von zwei
+seitlich eingetriebenen Eisenhaftern
+sichtbar sind,
+von denen der eine später
+das Absplittern eines Teiles
+des Kreuzes veranlasst hat.
+An den Innenflächen der
+Nische fehlen die Eisenhafter, 
+sie war also nicht
+inkrustiert. Ebenso fehlen sie an der Kante, die die Wand des Raumes
+mit den Nischenwandungen bildet, woraus hervorgeht, dass die Inkrustation
+weder um diese Kante herumging noch an ihr aufgehört hat, d.h.,
+dass die Inkrustation über die vorhandene Nische weglief, die dazu vorn
+zugemauert gewesen sein muss. Diese Nische kann deshalb also nicht
+zur Altarnische bestimmt gewesen sein, wie bisher stets angenommen
+worden ist. Gegen diese Annahme spricht auch ausserdem
+die mit 1,90 m im Scheitel des Bogens nur sehr geringe Höhe
+der Nische, der Umstand, dass das Fenster in der Nische eine
+spätere Zutat ist, und dass der Fussboden der Nische 13 cm tiefer
+liegt als der jetzige Fussboden des Raumes, dessen Höhenlage der
+des alten Fussbodens entsprochen haben wird, weil er bündig mit
+dem inneren Teil der durch die ganze Mauerstärke reichenden Türschwelle
+6,5 cm unter dem äusseren Anschlag der Türschwelle liegt.
+Die Nische (<ref target="b25">Bild 25</ref>) selbst gehört sicher in ihrer jetzigen inneren
+Form der ursprünglichen Bauanlage an. Sie ist sehr sorgfältig konstruiert.
+Die in den Lagerfugen mit Haken gearbeiteten 13 Bogensteine
+(einschliesslich der Kämpfersteine) von 61 cm Bogenstärke
+greifen alle ungeteilt durch die ganze Tiefe des von ihnen gebildeten,
+    <pb n='26'/><anchor id='Pg026'/>die Nische überdeckenden Tonnengewölbes durch. Einer von ihnen,
+der Bogenanfänger der linken, nördlichen Seite, greift sogar mit
+Wiederkehr 21 cm weit in die Rückwand der Nische ein, ergibt
+also damit die genaue ursprüngliche Tiefe der Nische mit 1,29 m.
+Von dem Mauerwerk der Nische ist jedoch nur ein Teil noch ursprünglich.
+Ein grosser Teil der Rückwand, etwa zwei Drittel der
+Fläche und die anschliessende südliche Ecke sind einmal herausgeschlagen
+und dann durch minderwertiges Mauerwerk zum Teil
+aus kleinen unbearbeiteten Bruchstücken mit dicker Mörtelverschmierung
+ersetzt worden, während das alte Mauerwerk sehr sorgfältige
+dicht schliessende Fugen ohne Mörtel zeigt. Im Äusseren
+greifen diese Spuren der Zerstörung und schlechten Wiederher<pb n='27'/><anchor id='Pg027'/>stellung
+noch weiter und umfassen die Südwand des Nischenvorbaues
+mit. Die wieder verwandten grossen Quader sind dabei
+nicht einmal fluchtrecht versetzt, und die Südwand der Nische ist
+denn auch 11 cm stärker ausgefallen als die Nordwand. Das Fenster
+der Ostwand sitzt ganz in diesem Flickmauerwerk. Sein Sturz besteht
+aus zwei schlecht gearbeiteten in Abstand von rechts 7 cm und
+links 10 cm voneinander versetzten Platten von verschiedener und
+unregelmässiger Dicke und von anderem Steinmaterial als der übrige
+Bau, ist also sicher neu. Auch die Laibungen des Fensters sind
+ohne Sorgfalt weder lotrecht noch winkelrecht,
+noch in ebenen Flächen hergestellt und lassen
+auch deutlich erkennen, dass das Fenster nachträglich
+notdürftig ausgebrochen ist. Angesichts
+dieses Zustandes ist es sehr wunderlich, dass
+man bei den bisherigen Aufnahmen das Fenster
+für echt gehalten hat. Die Nische war also
+ursprünglich ohne Fenster und lag hinter der
+inkrustierten Vermauerung von innen nicht
+sichtbar, aber durch das Kreuz am Kämpferstein,
+das aus der Inkrustation etwa 5 cm
+herausragte, in seiner Lage angedeutet. Man
+muss danach annehmen, dass diese Nische
+ursprünglich keinen Altar, sondern etwas anderes,
+sehr Wertvolles, vor profaner Berührung zu
+Schützendes geborgen hat, und das kann wohl
+nur die Leiche des grossen Königs selber mit
+seinen Waffen und Kleinodien gewesen sein,
+was denn auch die einstige Zerstörung gerade
+dieses Bauteiles erklären würde. So ist also durch zwingende
+technische Gründe, die ein jeder, der beobachten kann,
+am Denkmal selbst nachprüfen mag, erwiesen, dass die Anordnung
+dieser Nische dieselbe war, wie noch 288 Jahre später die
+des Grabes Karls des Grossen in Aachen, ein vermauerter überwölbter
+Raum. Ein Augenzeuge der von Otto III. im Jahre 1000
+vorgenommenen Graböffnung, sein „<anchor id="corr027"/><corr sic="protospalarius">protospatarius</corr> et comes sacri
+palatii“ Otto von Lomello<note place="foot">Mon. Germ. §§ VII, S. 106.</note> wie auch der Chronist Thietmar von
+Merseburg<note place="foot">Mon. Germ. §§ III, S. 781.</note> berichten, dass die Leiche Karls in einem vermauerten
+überwölbten Raum nicht in einem Sarkophag liegend, sondern auf
+einem Stuhle sitzend gefunden wurde. Auch für Theoderich wird
+    <pb n='28'/><anchor id='Pg028'/>man danach also keinen Sarkophag in der nur 1,90 m breiten Nische
+anzunehmen haben, sondern den toten König im vollen Schmuck
+seiner Waffen auf einem Stuhle thronend, vielleicht in halb sitzender
+halb liegender Stellung.
+</p>
+    <index index="ill" level1="Bild 24. Grundriss des Obergeschosses, rekonstruiert von Bruno Schulz. [S. 25]"/>
+    <anchor id="b24"/>
+    <pgIf output='txt'><then>
+        <p rend="ill">[Illustration: Bild 24. Grundriss des Obergeschosses,
+            rekonstruiert von Bruno Schulz.]</p>
+    </then><else>
+    <p><figure url="images/bild24.png" rend="w70">
+        <head>Bild 24. Grundriss des Obergeschosses,<lb/>
+            rekonstruiert von Bruno Schulz.</head>
+        <figDesc>Bild 24. Grundriss des Obergeschosses, rekonstruiert von Bruno Schulz.</figDesc></figure></p>
+    </else></pgIf>
+    <index index="ill" level1="Bild 25. Die Nische in der Ostwand des Obergeschosses, Innenansicht und Schnitt. [S. 26]"/>
+    <anchor id="b25"/>
+    <pgIf output='txt'><then>
+        <p rend="ill">[Illustration: Bild 25. Die Nische in der Ostwand des Obergeschosses,
+            Innenansicht und Schnitt.
+<lb/>In den Höhen a, b, c, d und bei e und f eiserne Haften.]</p>
+    </then><else>
+    <p><figure url="images/bild25.png" rend="w100">
+        <head>Bild 25. Die Nische in der Ostwand des Obergeschosses,
+            Innenansicht und Schnitt.<lb/>
+            <hi rend="font-size: small">In den Höhen a, b, c, d und bei e und f eiserne Haften.</hi></head>
+        <figDesc>Bild 25. Die Nische in der Ostwand des Obergeschosses, Innenansicht und Schnitt.</figDesc></figure></p>
+            </else></pgIf>
+<p>
+So erklären sich alle am Grabmal des grossen Königs vorhandenen
+Formen und Spuren vorhandener Formen zwanglos technisch 
+in Übereinstimmung mit der uns sonst bekannten Entwicklung,
+die Art der Bestattung als rein germanisch, die Architekturformen
+aus den Traditionen der spätrömischen Architektur, wie sie zur Zeit
+der Erbauung des Grabmals noch lebendig waren; und so zeigt
+sich uns das Grab des grossen Gotenkönigs als ein spätes Denkmal,
+an dem die Gedanken der monumentalen römischen Wanddekoration
+noch einmal in folgerichtiger, würdiger und prächtiger
+Weise Ausdruck gefunden haben. So stimmt auch sein Grab mit
+den Bestrebungen überein, die Theoderich während der ganzen
+langen Zeit seiner Regierung verfolgt hat, die grossen römischen
+Überlieferungen zu pflegen. Mit welchem Eifer der König gerade
+die Architektur seiner römischen Vorgänger pflegt und nachahmt,
+    <pb n='29'/><anchor id='Pg029'/>für die er „persönlich grosses Interesse und Bewunderung hegt (er
+sagt, die Betrachtung derselben sei seine liebste Erholung von den
+Sorgen der Regierung, Cass. Var. VIII,
+15<note place="foot">Felix Dahn, <anchor id="corr029"/><corr sic="die ">Die</corr> Könige der Germanen III. Abt., S. 168–172.</note>)“, zeigen viele Stellen
+in seinen Briefen, am deutlichsten vielleicht die Anweisung an seinen
+Curator palatii, den Oberbaudirektor, „er solle dafür sorgen, dass
+niemand die Neubauten von antiken unterscheiden könne!“ (VII, 5).
+Den Begriff „römisch“ müssen wir dabei für diese Zeit noch so
+fassen, wie ihn Theoderich selber in seinen Briefen und Edikten
+meint, als Bezeichnung für die einheitliche Kultur des gesamten
+Römischen Reiches, ohne allzugrossen Wert auf die Unterscheidungen:
+stadtrömisch, italisch, byzantinisch oder syrisch zu
+legen. Wie Theoderich alle Stellen der Zivilverwaltung mit Römern,
+d.h. Nichtgoten besetzte, so werden auch die leitenden Baubeamten
+und Architekten Römer in diesem Sinne gewesen sein. Die uns
+erhaltenen Namen von zweien seiner Architekten, Aloisius und
+Daniel, beweisen es auch. Da in jener Zeit alttestamentarische
+Namen für Europäer noch nicht üblich waren, so wird der letztere
+wohl Syrer gewesen sein. Gerade dieser ist es, den der König
+damit beauftragt, in Ravenna „Gewölbe zu konstruieren, wo man
+die Körper derer, die man verloren hat, erhalten könne, ohne sie
+in die Erde zu legen, damit die Hinterbliebenen nicht mehr genötigt
+sind, ihr Erbgut zu vergeuden für die Toten, oder die Körper
+derer, die sie lieb haben, ohne Ehre zu ihrem grossen Leidwesen
+in eine Grube geworfen zu sehen“ (Cass. lib. III, 19). Es ist also
+wohl möglich, dass dieser Daniel auch der Architekt des Grabmals
+ist. Dass er, wenn nicht gotische, so doch von gotischen Formen
+beeinflusste Steinmetzen am Bau beschäftigt hat, erscheint nach
+einigen Einzelformen, wie dem „Zangenornament“ am Hauptgesims
+wohl wahrscheinlich.
+</p>
+
+<div>
+    <anchor id="anm1"/><index index="toc"/><index index="pdf"/>
+<head>Anmerkung I.</head>
+
+<p>
+Dass die Ergänzung des Wandschmucks, wie sie Haupt will,
+technisch und historisch unmöglich ist, geht aus folgender Betrachtung
+hervor. Er beansprucht für den von ihm ergänzten Bogenfries
+ein im Museum von Ravenna befindliches Marmorbruchstück, und
+wenn er auch schliesslich sagt, er behaupte nicht, dass dieses Stück
+gerade da, am oberen Geschoss des Grabmals gesessen haben muss,
+hat er sich doch nicht entschliessen können zuzugeben, dass jenes
+    <pb n='30'/><anchor id='Pg030'/>Stück da auf keinen Fall gesessen haben kann, ja dass es überhaupt
+nicht auch nur in ähnlicher Weise irgendwo in eine Wand
+eingesetzt gewesen sein kann. Auf der sorgfältig bearbeiteten Rückseite
+dieses Bruchstückes (nach Haupts eigener Darstellung <ref target="b26">Bild 26</ref>)
+ist eine gegen einen etwas erhabenen Rand ein wenig vertiefte glatte
+Fläche füllungartig eingearbeitet und der gedrehte Schaft und die
+Basis des kleinen Säulchens sind bis scharf an die Rückfläche des
+Stückes sorgfältig profiliert, so dass ohne weiteres ersichtlich ist,
+dass das Bruchstück überhaupt nicht zum rückwärtigen Einbinden
+in Mauerwerk bestimmt gewesen sein kann. Trotzdem soll nach
+Haupt ein solches unten nur 7,5 cm dickes, 71 cm hohes flaches
+Marmorstück ohne jede weitere Befestigung hochkant gestanden
+haben, was technisch ja ganz unmöglich ist, und nicht nur die 10 cm
+tiefe Ausarbeitung in der Wand ausgefüllt, sondern auch noch mit
+seiner Vorderkante bündig mit den etwa 14 cm ausladenden Konsolen
+gesessen haben, was also eine Mindestdicke von 24 cm voraussetzen
+würde. Ausserdem stimmt die Form des Bruchstückes an keiner
+Stelle mit der Form der Einarbeitung überein. (Vgl. <ref target="b27">Bild 27</ref> mit
+der Form der Einarbeitung <ref target="b15">Bild 15</ref>.) Dass die jetzt dort an einigen
+Stellen vorhandenen Konsolen spätere mittelalterliche Zutaten sind,
+lehrt ihr Augenschein unmittelbar. Geschichtlich würde ausserdem
+zur Zeit des Theoderich ein Bogenfries auf Konsolen, der in Italien
+sonst nicht vor dem achten Jahrhundert, auch in Syrien erst nach
+der arabischen Invasion auftritt, einen unglaublichen Sprung in der
+Entwicklung bedeuten. Auch die von Haupt an den Gebäudeecken
+    <pb n='31'/><anchor id='Pg031'/>rekonstruierte sonderbare Form eines in steiler Schräge hoch gekröpften
+und dann horizontal um die Ecke geführten Gesimses
+(<ref target="b27">Bild 27</ref>) ist ganz ohne Beispiel in der Geschichte. Haupt führt
+als Beispiel dafür das Diptychon des Boetius zu Monza an (<ref target="b28">Bild 28</ref>).
+Schon an der von Haupt unvorsichtigerweise nicht mit weggeschnittenen
+Gardinenstange und dem an Ringen hängendem Vorhang
+unter dem schräg dargestellten Gesims links kann jedes Kind erkennen,
+dass Gesims und Gardinenstange nicht wirklich schräg ansteigend
+gemeint sind, sondern die perspektivische Darstellung des
+horizontalen Verlaufs sind,
+da von der wirklich schräg
+gelegten Gardinenstange der
+Vorhang mit den Ringen
+selbstverständlich herabrutschen
+würde.
+</p>
+    <index index="ill" level1="Bild 26. [S. 27]"/>
+    <anchor id="b26"/>
+<pgIf output='txt'><then>
+        <p rend="ill">[Illustration: Bild 26.]</p>
+    </then><else>   
+    <p><figure url="images/bild26.png" rend="w60">
+        <head>Bild 26.</head>
+        <figDesc>Bild 26.</figDesc></figure></p>
+    </else></pgIf>
+    <index index="ill" level1="Bild 27. Herstellung der verlorenen Bogen-Architektur auf Grund des Bruchstückes im Museum zu Ravenna, nach Haupt. [S. 28]"/>
+    <anchor id="b27"/>
+    <pgIf output='txt'><then>
+        <p rend="ill">[Illustration: Bild 27. Herstellung der verlorenen Bogen-Architektur
+            auf Grund des Bruchstückes im Museum zu Ravenna, nach Haupt.]</p>
+    </then><else>
+<p><figure url="images/bild27.png" rend="w100">
+<head>Bild 27. Herstellung der verlorenen Bogen-Architektur
+auf Grund des Bruchstückes im Museum zu Ravenna, nach Haupt.</head>
+<figDesc>Bild 27. Herstellung der verlorenen Bogen-Architektur auf Grund des Bruchstückes im Museum zu Ravenna, nach Haupt.</figDesc>
+</figure></p>
+    </else></pgIf>
+    <index index="ill" level1="Bild 28. Vom Diptychon des Boëtius zu Monza. [S. 28]"/>
+    <anchor id="b28"/>
+    <pgIf output='txt'><then>
+        <p rend="ill">[Illustration: Bild 28. Vom Diptychon des Boëtius zu Monza.]</p>
+    </then><else>
+<p><figure url="images/bild28.jpg" rend="w100">
+<head>Bild 28. Vom Diptychon des Boëtius zu Monza.</head>
+<figDesc>Bild 28. Vom Diptychon des Boëtius zu Monza.</figDesc>
+</figure></p>
+    </else></pgIf>
+<p>
+Das von ihm gleichfalls
+als Beispiel für ein solches
+schräglaufendes Gesims angeführte Beispiel an der Stuckdekoration von
+S. Giovanni in Fonte ist ebenfalls eine perspektivische Darstellung
+eines nach vorn gerichteten auf Säulen ruhenden horizontalen Gebälks
+(<ref target="b30">Bild 30</ref>). Haupt hat einfach die vorderen Säulen weggelassen
+(<ref target="b29">Bild 29</ref>). Beide Beispiele sind perspektivische Darstellungen eines
+Säulenbaldachins über den Figuren.
+</p>
+    <index index="ill" level1="Bild 29. Aus S. Giovani in Fonte zu Ravenna, unvollständige Darstellung nach Haupt. [S. 30]"/>
+    <anchor id="b29"/>
+    <pgIf output='txt'><then>
+        <p rend="ill">[Illustration: Bild 29. Aus S. Giovani in Fonte zu Ravenna,
+                unvollständige Darstellung nach Haupt.]</p>
+    </then><else>
+    <p><figure url="images/bild29.png" rend="w60"><head>Bild 29.
+        <lb/>
+        Aus S. Giovani in Fonte zu Ravenna,<lb/>
+        unvollständige Darstellung nach Haupt.</head>
+        <figDesc>Bild 29. Aus S. Giovani in Fonte zu Ravenna, unvollständige Darstellung nach Haupt.</figDesc></figure></p>
+    </else></pgIf>
+    <index index="ill" level1="Bild 30. Aus S. Giovani in Fonte zu Ravenna, vollständige Darstellung. [S. 30]"/>
+    <anchor id="b30"/>
+        <pgIf output='txt'><then>
+            <p rend="ill">[Illustration: Bild 30.
+                    Aus S. Giovani in Fonte zu Ravenna,
+                    vollständige Darstellung.]</p>
+        </then><else>
+    <p><figure url="images/bild30.png" rend="w60">
+        <head>Bild 30.
+            <lb/>
+            Aus S. Giovani in Fonte zu Ravenna,<lb/>
+            vollständige Darstellung.</head>
+        <figDesc>Bild 30. Aus S. Giovani in Fonte zu Ravenna, vollständige Darstellung.</figDesc></figure></p>
+        </else></pgIf>
+</div>
+<pb n='32'/><anchor id="Pg032"/>
+<div>
+    <anchor id="anm2"/><index index="toc"/><index index="pdf"/>
+<head>Anmerkung II.</head>
+
+<p>
+Durms Begründung seiner Ansicht ist aus folgenden Gründen
+hinfällig. Er sagt: „Die Flächen, von denen sich die bogenförmigen
+Verdachungen (gemeint sind die Schildbögen für die bogenförmigen
+Verdachungen, vgl. <ref target="b15">Bild 15</ref>) abheben – sind ganz roh und unregelmässig 
+tief gearbeitet, so dass daraus sicher geschlossen werden
+kann, dass die Mauerflächen von Ecke zu Ecke ursprünglich glatt
+durchgearbeitet waren.“ Das Letztere ist unzweifelhaft richtig und
+entspricht ganz der antiken und jeder vernünftigen Steinmetzübung
+für den gegebenen Fall. Zunächst sind, nachdem die Wand aus
+Bossenquadern mit Randschlag aufgeführt ist, die Wandflächen von
+Ecke zu Ecke glatt durchgearbeitet, denn nur dann können die Um<pb n='33'/><anchor id='Pg033'/>risse
+der beabsichtigten Einarbeitungen, wenn sie über mehrere
+Quader und Schichten greifen sollen, wirklich genau darauf aufgerissen
+werden, und erst dann kann die umrissene Fläche weggearbeitet
+werden. Die Einarbeitungen sind also wirklich augenscheinlich
+später als die glatte Wandfläche ausgeführt, aber nur in
+dem Sinne, wie etwa der Kuppelstein naturgemäss später versetzt
+sein muss als die Quadern der ihn tragenden Wand, ohne dass sie
+deswegen einer zweiten Bauzeit angehören. Dass die über den
+Schildbögen liegenden zurückgearbeiteten Flächen roh und unregelmässig
+tief gearbeitet sind, kann dabei nicht Wunder nehmen, denn
+diese Einarbeitungen können keinen anderen Zweck gehabt haben
+als entsprechende Steine darin einbinden zu lassen, und diese
+mussten dann jene Flächen ganz verdecken, mussten nur in den
+Rand, der in der Tat recht sorgfältig, durchaus nicht „ungeschlacht“
+ausgeführt ist, gut einpassen und brauchten auf ihrer Rückseite
+keine Berührung mit den dahinter liegenden Flächen zu haben. Es
+kommt ja selbst bei den denkbar sorgfältigsten Werksteinausführungen,
+die wir kennen, den griechischen Tempelbauten der klassischen
+Zeit, regelmässig vor, dass Werkstücke im Innern des Mauerwerkes
+rauh gelassen werden und sich gar nicht berühren (vgl.
+Durm, Baukunst der Griechen, Handb. d. Arch. II 1, Cellamauerwerk
+Fig. 59). Es ist also auch die Rauheit dieser Flächen durchaus
+kein Grund, die Einarbeitungen für spätere Zutaten zu halten.
+Für seine Ansicht beruft sich Durm nun auf eine Aufnahme von
+    <pb n='34'/><anchor id='Pg034'/>Holzmann<note place="foot">Carl Holzmann, Binbirkilise, Hamburg 1904.</note> vom Zentralbau in Binbirkilise, wo, wie er sagt „der
+Übergang zur Kuppel durch eine wenig sprechende einfache Schräge
+bewirkt war“. Nun ist aber das, was Durm als Aufnahme Holzmanns
+dazu abbildet, eine Durmsche Abänderung der Darstellung,
+die sein Gewährsmann mit „aufgen. u. reconstr. Holzmann“ bezeichnet
+hat und die (<ref target="b31">Bild 31</ref>) ausser anderen handgreiflichen Fehlern
+auch gerade in dem Übergang zur Kuppel schon an sich
+mathematisch eine Unmöglichkeit enthält. Eine Wasserschräge als
+Übergang vom achtseitigen Tambour zur gleichfalls achteckigen
+Kuppel müsste ja jedesmal mit einer Horizontalen, nicht mit einer
+geknickten Linie an die Kuppelseite anschneiden. Durm hat das
+denn auch erkannt und dadurch willkürlich nach eigenem Ermessen
+verbessert (<ref target="b32">Bild 32</ref>), dass er zwischen Tambour und Kuppel einen
+niedrigen Zylinder einschob, an dem nun die Wasserschrägen bogenförmig
+anschneiden, das Resultat aber trotzdem unbedenklich als
+Holzmanns Aufnahme angeführt.
+</p>
+    <index index="ill" level1="Bild 31. Der Centralbau in Binbirkilise aufgenommen und rekonstruiert von Carl Holzmann 1904. [S. 31]"/>
+    <anchor id="b31"/>
+<pgIf output='txt'><then>
+                <p rend="ill">[Illustration: Bild 31. Der Centralbau in Binbirkilise aufgenommen und
+                    rekonstruiert von Carl Holzmann 1904.]</p>
+            </then><else>
+    <p><figure url="images/bild31.png" rend="w60">
+        <head>Bild 31.<lb/>Der Centralbau in Binbirkilise aufgenommen und 
+            rekonstruiert von Carl Holzmann 1904.</head>
+        <figDesc>Bild 31. Der Centralbau in Binbirkilise aufgenommen und 
+            rekonstruiert von Carl Holzmann 1904.</figDesc></figure></p>
+            </else></pgIf>
+    <index index="ill" level1="Bild 32. Centralbau von Binbirkilise nach Darstellung Durms. [S. 31]"/>
+    <anchor id="b32"/>
+                <pgIf output='txt'><then>
+                    <p rend="ill">[Illustration: Bild 32. Centralbau von
+                        Binbirkilise nach
+                        Darstellung Durms.]</p>
+                </then><else>
+    <p><figure url="images/bild32.png" rend="w60">
+        <head>Bild 32. Centralbau von
+            Binbirkilise nach
+            Darstellung Durms.
+        </head>
+        <figDesc>Bild 32. Centralbau von
+            Binbirkilise nach
+            Darstellung Durms.</figDesc></figure></p>
+                </else></pgIf>
+<p>
+In Wirklichkeit ist der ganze obere Teil des Gebäudes schon
+vor Holzmanns Besuch zerstört gewesen (<ref target="b33">Bild 33</ref>)<note place="foot">Nach Joseph Strzygowski, Kleinasien, ein Neuland der Kunstgeschichte,
+Leipzig 1903.</note>, und die ganze
+Kuppel und der Übergang zu ihr ist lediglich seine Phantasie.
+Wenn man der Darstellung von De Laborde aus dem Jahre 1826
+Glauben schenken darf (<ref target="b34">Bild 34</ref>)<note place="foot">Nach Joseph Strzygowski, Kleinasien, ein Neuland der Kunstgeschichte,
+Leipzig 1903.</note>, so war der Bau vielmehr mit
+einem steinernen Zeltdach über einem Hauptgesims abgeschlossen,
+was eine in Asien sehr verbreitete, für die armenischen Kirchen
+noch heute typische und daher wohl glaubhafte Anordnung ist. So
+ist Durms Rekonstruktion durch nichts begründet.
+</p>
+    <index index="ill" level1="Bild 33. Centralbau von Binbirkilise. [S. 32]"/>
+    <anchor id="b33"/>
+    <pgIf output='txt'><then>
+        <p rend="ill">[Illustration: Bild 33. Centralbau von Binbirkilise.]</p>
+    </then><else>
+    <p><figure url="images/bild33.jpg" rend="w80">
+        <head>Bild 33. Centralbau von Binbirkilise.</head>
+        <figDesc>Bild 33. Centralbau von Binbirkilise.</figDesc></figure></p>
+    </else></pgIf>
+    <index index="ill" level1="Bild 34. Binbirkilise im Jahre, 1826 nach De Laborde. Links der Centralbau. [S. 33]"/>
+    <anchor id="b34"/>
+        <pgIf output='txt'><then>
+            <p rend="ill">[Illustration: Bild 34. Binbirkilise im Jahre, 1826 nach De Laborde.
+                Links der Centralbau.]</p>
+        </then><else>
+    <p><figure url="images/bild34.jpg" rend="w80">
+        <head>Bild 34. Binbirkilise im Jahre, 1826 nach De Laborde.<lb/>
+            Links der Centralbau.</head>
+        <figDesc>Bild 34. Binbirkilise im Jahre, 1826 nach De Laborde. Links der Centralbau.</figDesc></figure></p>
+        </else></pgIf>
+</div>
+        </body>
+        <back>
+            <div rend="page-break-before: always">
+  
+<pb/>
+
+<p rend="center">
+<hi rend="font-size: x-large">„Mannus“, Zeitschrift für Vorgeschichte</hi><lb/>
+herausgegeben von <hi rend='bold'>Professor Dr. Gustaf Kossinna</hi>.<lb/>
+<hi rend="bold"><hi rend="text-decoration: underline">Einzelne Hefte</hi> sind <hi rend='text-decoration: underline'>nicht käuflich</hi>.</hi><lb/>
+<hi rend='italic'>Abonnementspreis pro Jahr M. 16.–.</hi>
+</p>
+
+<p rend="center"><hi rend="bold">Inhalts-Verzeichnis des I. Bandes:</hi></p>
+
+<p><hi rend="semibold">Geleitwort.</hi><lb/>
+<hi rend="semibold">Gründungsbericht</hi> und<lb/>
+    <hi rend="semibold">Satzungen</hi> der Deutschen Gesellschaft für Vorgeschichte.
+</p>
+
+<p rend="center"><hi rend='gesperrt'>I. Abhandlungen:</hi></p>
+
+<p>
+<hi rend='bold'>Kossinna, G.</hi>, (Berlin), <hi rend='semibold'>Der Ursprung der Urfinnen und der Urindogermanen und
+ihre Ausbreitung nach dem Osten</hi>. I. Urfinnen und Nordindogermanen.
+<hi rend='bold'>Mit 25 Textabbildungen und 11 Tafeln.</hi>
+</p>
+
+<p>
+– –, <hi rend='semibold'>Der Ursprung der Urfinnen und Urindogermanen und ihre Ausbreitung
+nach Osten</hi>. II. Nordindogermanen und Südindogermanen. <hi rend='bold'>Mit 22 Textabbildungen
+und 13 Tafeln.</hi>
+</p>
+
+<p>
+<hi rend='bold'>Montelius, O.</hi>, (Stockholm), <hi rend='semibold'>Das Sonnenrad und das christliche Kreuz I. Mit
+40 Abbildungen im Text.</hi>
+</p>
+
+<p>
+– –, <hi rend='semibold'>Das Sonnenrad und das christliche Kreuz II.</hi> (Fortsetzung und Schluss.)
+<hi rend='bold'>Mit 32 Textabbildungen.</hi>
+</p>
+
+<p>
+<hi rend='bold'>Devoir, A.</hi>, (Brest), <hi rend='semibold'>Urzeitliche Astronomie in Westeuropa</hi>. <hi rend='semibold'>Mit 4 Textabbildungen
+und 3 Tafeln.</hi>
+</p>
+
+<p>
+<hi rend='bold'>Rademacher, C.</hi>, (Köln), <hi rend='semibold'>Die germanische Dorfanlage der Kaiserzeit</hi> am Fliegenberge
+bei Troisdorf, Siegkreis, Reg.-Bez. Köln. <hi rend='semibold'>Mit 4 Textabbildungen und
+1 Tafel.</hi>
+</p>
+
+<p>
+<hi rend='bold'>Schmidt, R. R.</hi>, (Tübingen), <hi rend='semibold'>Das Aurignacien in Deutschland</hi>. Vergleichende
+Stratigraphie des älteren Jungpaläolithikum. <hi rend='semibold'>Mit 3 Tafeln.</hi>
+</p>
+
+<p>
+<hi rend='bold'>Weinzierl, R. R. von</hi>, (Teplitz-Schönau), <hi rend='semibold'>Übersicht über die Forschungsergebnisse
+in Nordböhmen. Mit 32 Textabbildungen und 1 Porträt.</hi>
+</p>
+
+<p>
+<hi rend='bold'>Rieken, K.</hi>, (Kottbus), <hi rend='semibold'>Drei Holzbrandplätze mit Steinkern aus der Bronzezeit</hi>.
+Aus der städt. Abteilung des Niederlausitzer Museums für Altertumskunde in
+Kottbus N.-L. <hi rend='semibold'>Mit 11 Textabbildungen und 1 Tafel.</hi>
+</p>
+
+<p rend="center"><hi rend='gesperrt'>II. Mitteilungen:</hi></p>
+
+<p>
+<hi rend='bold'>Goetze, A.</hi>, (Berlin), <hi rend='semibold'>Ostgotische Helme und symbolische Zeichen. Mit 4 Textabbildungen
+und 1 Tafel.</hi>
+</p>
+
+<p>
+<hi rend='bold'>Hess von Wichdorff, H.</hi>, (Berlin), <hi rend='semibold'>Über die ersten Anfänge vorgeschichtlicher
+Erkenntnis im Ausgange des Mittelalters</hi>. Ein Beitrag zur Geschichte der
+vorgeschichtlichen Wissenschaft.
+</p>
+
+<p>
+<hi rend='bold'>Kossinna, G.</hi>, (Berlin), Vergessener Bericht über ein Urnengräberfeld der Latène-Zeit (?)
+in Ermsleben, Mansfelder Gebirgskreis, vom Jahre 1710. <hi rend='semibold'>Mit 1 Textabbildung.</hi>
+</p>
+
+<p>
+<hi rend='bold'>Schneider, H.</hi>, (Leipzig), <hi rend='semibold'>Rassereinheit und Kultur</hi>.
+</p>
+
+<p>
+<hi rend='bold'>Wilke, G.</hi>, (Chemnitz), <hi rend='semibold'>Der neue Skelettfund des Homo Aurignacensis Hauseri.
+Mit 1 Textabbildung.</hi>
+</p>
+
+<p>
+<hi rend='bold'>Beltz, R.</hi>, (Schwerin), <hi rend='semibold'>Einige seltenere steinzeitliche Funde aus Mecklenburg.
+Mit 2 Textabbildungen und 1 Tafel.</hi>
+</p>
+
+<p>
+<hi rend='bold'>Müller-Brauel, H.</hi>, (Zeven), <hi rend='semibold'>Der „Hexenberg“ am Wege Brauel-Offensen, Kr.
+Zeven</hi>. Ein steinzeitlicher Grabhügel. Fundbericht von 1891. <hi rend='semibold'>Mit 16 Textabbildungen
+und 1 Tafel.</hi>
+</p>
+
+<p>
+<hi rend='bold'>Waase, K.</hi>, (Neu-Ruppin), <hi rend='semibold'>Möritzscher Funde</hi>. Urnengräberfunde aus der Leipziger
+Tieflandbucht. <hi rend='semibold'>Mit 2 Tafeln.</hi>
+</p>
+
+<p>
+<hi rend='bold'>Hekler, A.</hi>, (Budapest), <hi rend='semibold'>Eine neue Bronzebüste eines Germanen. Mit 1 Textabbildung.</hi>
+</p>
+
+<p>
+<hi rend='bold'>Schmidt, H.</hi>, (Löbau), <hi rend='semibold'>Ergebnis meiner Wallforschung auf dem Breitenberge bei
+Striegau in Schlesien. Mit 2 Textabbildungen.</hi>
+</p>
+
+<p>
+<hi rend='bold'>Voges, Th.,</hi> <hi rend="semibold">Vorgeschichte des Dorfes Beierstedt bei Jerxheim.</hi>
+</p>
+
+<pb/>
+
+<p rend="center">
+<hi rend="gesperrt">III. Aus Museen und Vereinen:</hi>
+</p>
+
+<p>
+<hi rend='bold'>Kiekebusch, A.</hi>, (Berlin), Die vorgeschichtliche Abteilung des Märkischen Museums
+der Stadt Berlin. <hi rend='semibold'>Mit 5 Textabbildungen.</hi>
+</p>
+
+<p>
+<hi rend='bold'>Blume, E.</hi>, (Posen), <hi rend='semibold'>Aus der Provinz Posen</hi>. Erwerbungen des Kaiser Friedrich-Museums
+zu Posen. Juli–Dezember 1908.
+</p>
+
+<p>
+– – <hi rend='semibold'>Aus der Provinz Posen</hi>. Erwerbungen des Kaiser Friedrich-Museums zu
+Posen vom Januar bis Juni 1909. <hi rend='semibold'>Mit 3 Textabbildungen.</hi>
+</p>
+
+<p>
+<hi rend='bold'>Günther, A.</hi>, (Coblenz), <hi rend='semibold'>Das Museum des Kunst-, Kunstgewerbe- und Altertum-Vereins
+für den Regierungsbezirk Coblenz</hi>.
+</p>
+
+<p>
+<hi rend='bold'>Rademacher, C.</hi>, (Köln), <hi rend='semibold'>Prähistorisches Museum zu Köln</hi>.
+</p>
+
+<p>
+<hi rend='bold'>Fuhse, F.</hi>, (Braunschweig), <hi rend='semibold'>Städtisches Museum Braunschweig. Mit 3 Textabbildungen.</hi>
+</p>
+
+<p>
+Deutsche Gesellschaft Naturw.-Abt. in Posen. Vortrag: <hi rend='bold'>Blume</hi>, Die chronologische
+und ethnographische Methode der vorgeschichtl. Forschung.
+</p>
+
+<p>
+Société préhistorique de <anchor id="corra3"/><corr sic="france">France</corr>.
+</p>
+
+<p>
+Sitzungsberichte der Berliner Zweiggesellschaft der Deutschen Gesellschaft für Vorgeschichte.
+</p>
+
+<p rend="center">
+<hi rend="gesperrt">IV. Bücherbesprechungen.</hi>
+</p>
+
+<p rend="center">
+<hi rend="gesperrt">V. Nachrichten.</hi> <hi rend="semibold">(Mit 3 Porträts und 1 Tafel.)</hi>
+</p>
+<milestone unit="tb" rend="rule: 100%"/>
+<p rend="center">
+<hi rend="font-size: large; bold">I. Ergänzungs-Band zum „Mannus“, enthaltend:</hi>
+</p>
+
+<p rend="center">
+<hi rend="bold">Bericht über die
+I. Hauptversammlung der Deutschen Gesellschaft für Vorgeschichte</hi>
+</p>
+
+<p rend="center">
+zu Hannover, 6. bis 9. August 1909
+</p>
+
+<p rend="center">
+herausgegeben vom I. Vorsitzenden der Gesellschaft
+</p>
+
+<p rend="center">
+<hi rend='bold'>Professor Dr. Gustaf Kossinna.</hi>
+</p>
+
+<p rend="center">
+<hi rend='italic'>7 Bogen mit 2 Tafeln und 4 Abbildungen im Text. – Preis Mk. 4.–.</hi>
+</p>
+
+<p rend="center">
+<hi rend='bold'><hi rend='text-decoration: underline'>Vorzugspreis</hi> für Mitglieder der Gesellschaft und Abonnenten
+des Mannus Mk. 3.–.</hi>
+</p>
+
+<p>
+<hi rend='bold'><hi rend='gesperrt'>Inhalt:</hi></hi> Ansprachen und Weihereden. – <hi rend='bold'>Festmahl:</hi> Aufführungen. – <hi rend='bold'><hi rend='gesperrt'>Vorträge:</hi>
+Kossinna</hi>, <hi rend='gesperrt'>Über vorgeschichtlichen Handel in Mitteleuropa</hi>. –
+<hi rend='bold'>Reimers</hi>, <hi rend='gesperrt'>Beziehungen zwischen Vorgeschichte und Denkmalspflege</hi>. –
+<hi rend='bold'>Höfer</hi>, <hi rend='gesperrt'>Erforschung mittelalterlicher Burgen</hi>. – <hi rend='bold'>Olbricht</hi>, <hi rend='gesperrt'>Klima der
+postbaltischen Zeit und die vorgeschichtliche Chronologie</hi>. – <hi rend='bold'>Schwantes</hi>,
+<hi rend='gesperrt'>Slawische Skelettgräber bei Rassau (Provinz Hannover)</hi>. – <hi rend='bold'>Feyerabend</hi>,
+<hi rend='gesperrt'>Entstehung der Schlackenwälle und die verschiedenen Typen der Burgwälle
+in der Oberlausitz</hi>. – <hi rend='bold'>Schmidt</hi>, <hi rend='gesperrt'>Die spätpaläolithischen Bestattungen
+der Ofnet</hi>. – <hi rend='gesperrt'>Diluvialarchäologische Konferenz</hi>. – <hi rend='bold'>Schulz</hi>,
+<hi rend='gesperrt'>Das Theoderichgrabmal zu Ravenna und seine Stellung in der Architekturgeschichte</hi>.
+– <hi rend='bold'>Bezzenberger</hi>, <hi rend='gesperrt'>Ostpreussische Grenzbeziehungen</hi>. –
+<hi rend='bold'>Knoke</hi>, <hi rend='gesperrt'>Wanderung über das Schlachtfeld des Teutoburger Waldes</hi>. –
+<hi rend='bold'>Ausflüge:</hi> 1. <hi rend='gesperrt'>In die Lüneburger Heide</hi>, nach Wohlde und zu den Sieben Steinhäusern
+bei Südbostel (8. August). 2. <hi rend='gesperrt'>Ins Wesergebirge und in den Teutoburger
+Wald. Exkurs über den Flurnamen „Idistaviso“ von</hi> Prof. <hi rend='bold'>Kossinna</hi>. 3. <hi rend='gesperrt'>Nach
+Süddeutschland</hi> zum Besuch neugeordneter Sammlungen des deutschen Paläolithikums
+(13.–16. August). – <hi rend='bold'>Schmidt</hi>, <hi rend='gesperrt'>Geologische und archäologische Ergebnisse
+seiner seit 1906 vorgenommenen Ausgrabungen süddeutscher
+Höhlen</hi>. – <hi rend='bold'>Schmidt</hi>, <hi rend='gesperrt'>Die diluvialprähistorische Sammlung deutscher
+Funde in Tübingen</hi>.
+</p>
+
+<p>
+Diese Vorträge bieten jedem Vorgeschichtsforscher reiches Interesse und sind eine
+unentbehrliche Ergänzung zu dem Bilde von der Tätigkeit der Gesellschaft im 1. Geschäftsjahre.
+Teilnehmer und Nichtteilnehmer der I. Hauptversammlung sollten daher nicht versäumen,
+sich den Ergänzungsband anzuschaffen. Der grosse Umfang des Tagungsberichts
+hat die Aufnahme in den „Mannus“ – die ursprünglich vorgesehen war – unmöglich
+gemacht.
+</p>
+
+<pb/>
+
+<p rend="center; page-break-before: always">
+<hi rend="bold">Verlag von Curt Kabitzsch in Leipzig, Dörrienstraße 16.</hi>
+</p>
+
+<p rend="center">
+<hi rend="bold; font-size: large">Mannusbibliothek</hi>
+</p>
+
+<p rend="center">
+herausgegeben von
+<lb/><hi rend="bold">Prof. Dr. Gustaf Kossinna.</hi>
+</p>
+
+<p>
+No. 1. <hi rend='bold'>Wilke</hi>, Dr. <hi rend='bold'>Georg</hi>, <hi rend='bold'>Spiral-Mäander-Keramik und Gefäßmalerei</hi>.
+(Hellenen und Thraker). III, 84 Seiten mit 100 Abbildungen
+im Text und 1 Tafel. 1910. Einzelpreis M. 8.10. – Vorzugspreis<note place="foot">Der Vorzugspreis tritt ein, wenn auf die Sammlung abonniert wird oder von den bereits
+vorliegenden Bänden mindestens 4 auf einmal bestellt werden. Gebunden kostet jeder Band M. 4.–
+bis M. 10.– mehr.</note> M. 6.50.
+</p>
+
+<p>
+No. 2. <hi rend='bold'>Kimakowicz-Winnicki, M. von</hi>, <hi rend='bold'>Spinn- und Webewerkzeuge</hi>.
+Entwicklung und Anwendung in vorgeschichtlicher Zeit Europas.
+III, 70 Seiten mit 107 Textabbildungen. 1911. Einzelpreis M. 8.10.
+– Vorzugspreis M. 6.50.
+</p>
+
+<p>
+No. 3. <hi rend='bold'>Schulz</hi>, Prof. <hi rend='bold'>Bruno</hi>, <hi rend='bold'>Das Grabmal des Theoderich zu
+Ravenna</hi> und seine Stellung in der Architekturgeschichte. 34 Seiten
+mit 34 Abbildungen im Text und 1 Titelbild. 1911. Einzelpreis M. 4.–.
+– Vorzugspreis M. 3.15.
+</p>
+
+<p>
+No. 4. <hi rend='bold'>Bartelt</hi>, Rektor <hi rend='bold'>Wilhelm</hi>, und <hi rend='bold'>Waase</hi>, Mittelschullehrer <hi rend='bold'>Karl</hi>, <hi rend='bold'>Die Burgwälle
+des Ruppiner Kreises</hi>. Ein Beitrag zur Heimatkunde.
+III, 65 Seiten mit 1 Karte und 20 Tafeln, enthaltend 27 Lagepläne, sowie
+227 Abbildungen im Text. 1911. Einzelpreis M. 9.80. – Vorzugspreis
+M. 7.95.
+</p>
+
+<p>
+No. 5. <hi rend='bold'>Kropp, Philipp</hi>, <hi rend='bold'>Latènezeitliche Funde an der keltisch-germanischen
+Völkergrenze zwischen Saale und Weißer
+Elster</hi>. IV, 132 Seiten mit 167 Abbildungen und 2 Kärtchen im Text.
+1911. Einzelpreis M. 15.30. – Vorzugspreis M. 12.25.
+</p>
+
+<p>
+No. 6. <hi rend='bold'>Kossinna</hi>, Prof. Dr. <hi rend='bold'>Gustaf</hi>, <hi rend='bold'>Die Herkunft der Germanen</hi>. Zur
+Methode der Siedlungsarchäologie. 2. Aufl. Neudruck der Ausgabe
+von 1911 vermehrt durch Nachträge und 9 Karten. II u. 30 Seiten mit
+9 Karten. 1920. Einzelpreis M. 10.–. Vorzugspreis M. 8.–. (Einband
+M. 8.–).
+</p>
+
+<p>
+No. 7. <hi rend='bold'>Wilke</hi>, Dr. <hi rend='bold'>Georg</hi>, <hi rend='bold'>Südwesteuropäische Megalithkultur</hi> und
+ihre Beziehungen zum Orient. IV, 181 Seiten mit 141 Abbildungen
+im Text. 1912. Einzelpreis M. 13.50. – Vorzugspreis M. 10.80.
+</p>
+
+<p>
+No. 8. <hi rend='bold'>Blume</hi>, Dr. <hi rend='bold'>Erich</hi>, <hi rend='bold'>Die germanischen Stämme</hi> und die Kulturen
+zwischen Oder und Passarge zur römischen Kaiserzeit. I. Teil:
+VI, 213 Seiten mit 256 Abbildungen im Text und auf 6 Tafeln nebst
+1 Karte. 1912. Einzelpreis M. 14.40. – Vorzugspreis M. 11.55.
+</p>
+
+<p>
+No. 9. <hi rend='bold'>Kossinna</hi>, Prof. Dr. <hi rend='bold'>Gustaf</hi>, <hi rend='bold'>Die deutsche Vorgeschichte</hi> eine
+hervorragend nationale Wissenschaft. 3. verbesserte Auflage. VII,
+255 Seiten mit 456 Abbildungen im Text und auf 50 Tafeln. 1921.
+Einzelpreis M. 50.–. Vorzugspreis M. 40.–. (Einband M. 8.–).
+</p>
+
+<p>
+No. 10. <hi rend='bold'>Wilke</hi>, Dr. <hi rend='bold'>Georg</hi>, <hi rend='bold'>Kulturbeziehungen zwischen Indien,
+Orient und Europa</hi>. IV, 276 Seiten mit 216 Abbildungen im Text.
+1913. Einzelpreis M. 21.60 – Vorzugspreis M. 17.30.
+</p>
+
+<p rend="center">
+Hierzu der jeweilige Sortimenter-Zuschlag.
+</p>
+
+<pb/>
+
+<p rend="center; page-break-before: always">
+<hi rend="bold; font-size: x-large">„Mannus“,</hi>
+</p>
+
+<p rend="center">
+<hi rend="bold; font-size: large">Zeitschrift für Vorgeschichte</hi>
+</p>
+
+<p rend="center">
+herausgegeben von <hi rend='bold'>Prof. Dr. Gustaf Kossinna</hi>.
+</p>
+
+<p>
+Jährlich 2–4 Hefte in zwangloser Folge, die zusammen einen stattlichen Band mit vielen Tafeln
+und reichlichen Textabbildungen bilden. <hi rend='text-decoration: underline'>Einzelne Hefte sind nicht käuflich.</hi>
+</p>
+
+<p rend="center">
+<hi rend='text-decoration: underline'>Bezugspreis der Bände 7 bis 10: je M. 36.–; für Band 11–12 (Doppelband) M. 75.–;
+für Band 13: Mk. 60.–.</hi>
+</p>
+
+<p rend="center">
+<hi rend='text-decoration: underline'>Der Bezug des 1. Heftes verpflichtet zur Abnahme der Fortsetzung bis zum Schluß des Bandes.</hi>
+</p>
+
+<p>
+Die ersten 6 Bände sind nur noch in wenigen, bereits durch Nachdruck ergänzten Exemplaren vorhanden,
+der reguläre Bezugspreis davon ist aufgehoben, der Verlag erteilt Interessenten auf Wunsch
+Auskunft, was die Bände jeweils kosten.
+</p>
+
+<p rend="center">
+<hi rend="bold; font-size: x-large">Gesellschaft für Deutsche Vorgeschichte.</hi>
+</p>
+
+<p rend="center">
+Förderung der Urgeschichte unseres Volkes ist jetzt nationale Pflicht, dies kann nicht besser geschehen
+als durch Beitritt zur genannten Gesellschaft.
+</p>
+
+<p>
+<hi rend='font-size: large; bold; text-decoration: underline'>Der Mitgliedsbeitrag</hi> der Gesellschaft für deutsche Vorgeschichte beträgt ab 1920
+25 M., für Mitglieder der Berliner Zweiggesellschaft 3 M.
+mehr; die Einzahlung desselben hat an den Verlag von <hi rend='bold'>Curt Kabitzsch, Leipzig</hi>, Dörrienstraße
+16 (Postscheckkonto Leipzig 54228), zu erfolgen.
+</p>
+
+<p>
+<hi rend="bold"><hi rend='font-size: large; text-decoration: underline'>Neuanmeldungen</hi> sowie 
+    <hi rend='font-size: large; text-decoration: underline'>Abmeldungen</hi></hi> sind entweder an den Vorsitzenden,
+<hi rend='text-decoration: underline'>Herrn Geh. Regierungsrat
+<hi rend='bold'>Professor Dr. G. Kossinna, Berlin-Lichterfelde, Karlstrasse 10</hi></hi>, oder an den Schatzmeister
+der Gesellschaft, Herrn <hi rend='bold'>Ernst Snethlage, Berlin NW 5</hi>, Quitzowstraße 123 zu richten.
+</p>
+
+<p rend="center">
+<hi rend="bold; font-size: x-large">Das Weib in anthropologischer
+und sozialer Betrachtung.</hi>
+</p>
+
+<p rend="center">Von
+<lb/><hi rend='bold'>Dr. Oskar Schultze</hi>,
+<lb/>Professor der Anatomie an der Universität Würzburg.</p>
+
+<p rend="center">
+<hi rend='text-decoration: underline'>2. ergänzte Auflage.</hi>
+</p>
+
+<p rend="center">
+VI und 64 Seiten mit 11 Abbildungen im Text. 1920. M. 6.–.
+</p>
+
+<p>
+„In ruhiger objektiver Weise werden die Unterschiede von Mann und Weib auf Grund des
+anatomischen Baues und der Entwicklungsgeschichte an der Hand guter Bilder geschildert. Bietet eine
+wahre Fülle von gesichtetem, wichtigen Zahlenmaterial aus der einschlägigen Literatur. Ein sehr
+interessantes höchst lesenswertes Buch“.
+</p>
+
+<p rend="text-align: right">„Bayr. Ärztl. Korrespondenzblatt.“</p>
+
+<p rend="center">
+<hi rend="bold; font-size: x-large">Vor- und frühgeschichtliche
+Altertümer Thüringens.</hi>
+</p>
+
+<p rend="center">
+Im Auftrage Thüringischer Geschichtsvereine und wissenschaftlicher Korporationen mit
+Unterstützung der Staatsregierungen von Preußen, Sachsen-Weimar, Sachsen-Coburg-Gotha,
+Schwarzburg-Rudolstadt und Schwarzburg-Sondershausen herausgegeben von
+</p>
+
+                <table rend="latexcolumns: p{2.5cm}p{2.5cm}p{2.5cm}">
+    <row><cell rend="center">Prof. Dr. <hi rend='bold'>A.&nbsp;Götze</hi><lb/>
+    Berlin-Großlichterfelde</cell>
+    <cell rend="center">Sanitätsrat Dr. <hi rend='bold'>P. Zschiesche</hi><lb/>
+    Erfurt</cell>
+        <cell rend="center">Prof. Dr. <hi rend='bold'>P.&nbsp;Höfer</hi>
+        <lb/>Wernigerode</cell>
+    </row>
+</table>
+
+<p rend="center">
+XLI und 466 S. mit 24 Lichtdrucktafeln, einer Übersichts- und einer archäologischen Karte.
+<lb/>M. 36.–.
+</p>
+
+<p rend="center">
+Hierzu der jeweilige Sortimenter-Zuschlag.
+</p>
+
+<p rend="center">
+<hi rend="font-size: small">Universitätsdruckerei H. Stürtz A. G., Würzburg.</hi>
+</p>
+
+<pb/>
+
+<p rend="center; page-break-before: always"><hi rend='gesperrt'>Curt Kabitzsch</hi> (A. Stuber’s Verlag) in <hi rend='gesperrt'>Würzburg</hi>.</p>
+
+<p rend="center"><hi rend="bold; font-size: large">Mannusbibliothek</hi><note place="foot">Die bisher als „Darstellungen früh- und vorgeschichtlicher Kultur-, Kunst- und Völkerentwicklung“
+und als „Forschungen zur Früh- und Vorgeschichte Europas“ erschienenen beiden Serien
+werden unter dem Titel „Mannusbibliothek“ vereinigt und fortgesetzt. Den Abonnenten der einen
+oder anderen früheren Serie steht das Recht zur Ergänzung zum Vorzugspreise zu. Umschläge mit
+dem neuen Titel liefert der Verlag auf Verlangen gratis.</note>
+<lb/>herausgegeben von
+    <lb/><hi rend="bold; font-size: large">Professor Dr. Gustaf Kossinna.</hi>
+</p>
+
+<p rend="center"><hi rend='semibold; text-decoration: underline'>No. 1.</hi></p>
+
+<p rend="center"><hi rend="bold; font-size: x-large">Spiral-Mäander-Keramik und Gefässmalerei.</hi></p>
+
+<p rend="center"><hi rend="bold; font-size: large">Hellenen und Thraker.</hi></p>
+
+<p  rend="center">Von <hi rend='bold'>Dr. Georg Wilke</hi>.</p>
+<p rend="center">:: Mit 100 Textabbildungen und 1 Tafel. ::
+<lb/><hi rend='semibold'>Einzel-Preis Mk. 4.50.</hi>
+    <lb/><hi rend='semibold'>Subskriptionspreis, wenn auf die ganze Serie abonniert wird, Mk. 3.60.</hi>
+</p>
+<p>
+<hi rend="font-size: small">Die vorliegende Studie soll einen Beitrag zur Lösung des neuerdings wieder so aktuell gewordenen Indogermanenproblems
+bilden, indem sie an der Hand der archäologischen Tatsachen die Herkunft der ältesten thrakischen
+und hellenischen Stämme Nord-Griechenlands aufzuklären sucht.</hi>
+</p>
+
+<p rend="center"><hi rend='semibold; text-decoration: underline'>No. 2.</hi></p>
+
+<p rend="center"><hi rend="bold; font-size: x-large">Spinn- und Webewerkzeuge.</hi></p>
+
+<p rend="center"><hi rend="bold; font-size: large">Entwicklung und Anwendung in vorgeschichtlicher Zeit Europas.</hi></p>
+
+<p rend="center">
+    Von<lb/>
+    <hi rend="bold; font-size: large">M. von Kimakowicz-Winnicki</hi>
+    <lb/><hi rend="semibold">Museumsdirektor in Hermannstadt (Siebenbürgen).</hi>
+</p>
+
+<p rend="center">Mit 107 Textabbildungen. <hi rend='semibold'>Einzel-Preis Mk. 4.50.</hi>
+<lb/><hi rend='semibold'>Subskriptions-Preis, wenn auf die ganze Serie abonniert wird, Mk. 3.60.</hi>
+</p>
+
+<p rend="font-size: small">
+Diese Arbeit soll in erster Linie auf die verfehlte Forschungsrichtung in der vorgeschichtlichen Webetechnik
+aufmerksam machen. Sie enthält ferner eine Anzahl neuer Gesichtspunkte und Deutungen, die auf Grundlage eines
+eingehenden Studiums der gesamten Textiltechnik festgestellt werden konnten. <hi rend='bold'>Sie ist nicht nur für den Prähistoriker,
+sondern auch für den Ethnographen, Technologen und andere von Interesse.</hi>
+</p>
+
+<p rend="center"><hi rend='semibold; text-decoration: underline'>No. 3.</hi></p>
+                
+<p rend="center"><hi rend="bold; font-size: x-large">Das Grabmal des Theoderich zu Ravenna</hi>
+<lb/><hi rend="bold; font-size: large">und seine Stellung in der Architekturgeschichte</hi></p>
+
+<p rend="center">Von <hi rend='bold'><hi rend='gesperrt'>Bruno Schulz</hi></hi>,
+<lb/><hi rend="font-size: small">ord. Professor für Architektur an der Kgl. Technischen Hochschule Hannover.</hi>
+</p>
+
+                <p rend="center">Mit 34 Textabbildungen und einem Titelbild.
+                    <lb/><hi rend='semibold'>Einzelpreis Mk. 2.20.</hi>
+<lb/><hi rend='semibold'>Subskriptionspreis, wenn auf die ganze Serie abonniert wird, Mk. 1.75.</hi></p>
+
+<p rend="center"><hi rend='semibold; text-decoration: underline'>No. 4.</hi></p>
+
+<p rend="center"><hi rend='gesperrt; font-size: large'>Die Burgwälle des Ruppiner Kreises.</hi></p>
+
+<p rend="center"><hi rend="bold">Ein Beitrag zur Heimatkunde.</hi></p>
+
+<p rend="center">Von
+<lb/>Rektor <hi rend='semibold'>Wilhelm Bartelt</hi> und Mittelschullehrer <hi rend='semibold'>Karl Waase</hi> in Neuruppin.
+</p>
+
+<p rend="center">Mit 1 Karte und 20 Tafeln, enth. 27 Lagepläne und 227 Abbildungen.
+    <lb/><hi rend='semibold'>Einzel-Preis Mk. 5.50.</hi><lb/>
+    <hi rend='semibold'>Subskriptions-Preis</hi>, wenn auf die ganze Serie abonniert wird, <hi rend='semibold'>Mk. 4.40</hi>.
+</p>
+
+                <pb/>
+
+<p rend="center"><hi rend='semibold; text-decoration: underline'>No. 5.</hi></p>
+
+<p rend="center">
+<hi rend="bold; font-size: large">Latènezeitliche Funde an der keltisch-germanischen
+Völkergrenze zwischen Saale und Weisser Elster.</hi>
+</p>
+
+<p rend="center">
+Von <hi rend='bold'>Philipp Kropp</hi>-Jena.
+</p>
+
+<p rend="center">
+<hi rend='semibold'>8½ Bogen</hi> mit 167 Abbildungen und 2 Kärtchen im Text.
+<lb/><hi rend='semibold'>Einzelpreis Mk. 8.50, Subskriptionspreis Mk. 6.80.</hi>
+</p>
+
+<p rend="center"><hi rend='semibold; text-decoration: underline'>No. 6.</hi></p>
+                
+<p rend="center">
+<hi rend="bold; font-size: x-large">Die Herkunft der Germanen.</hi>
+</p>
+
+<p rend="center">
+<hi rend="font-size: large">Zur Methode der Siedlungsarchäologie.</hi>
+</p>
+
+<p rend="center">
+<hi rend="font-size: large">Von <hi rend='bold'>Professor Dr. Gustaf Kossinna</hi>.</hi>
+</p>
+
+<p rend="center">
+2 Bogen mit einem Kärtchen.
+<lb/><hi rend='semibold'>Einzelpreis Mk. 1.50. Subskriptionspreis Mk. 1.20.</hi>
+</p>
+
+<p rend="center">
+Als <hi rend='semibold; text-decoration: underline'>No. 7</hi> ist in Vorbereitung:
+</p>
+
+<p rend="center">
+<hi rend="bold; font-size: x-large">Südeuropäische Megalithkultur und ihre Beziehungen zum Orient
+</hi></p>
+
+<p rend="center">
+Von <hi rend='bold'>Dr. Georg Wilke</hi>.
+</p>
+
+<p rend="center">
+Mit etwa 150 Textabbildungen. <hi rend='semibold'>Einzelpreis ca. Mk. 6.–, Subskriptionspreis</hi>, wenn
+auf die ganze Serie abonniert wird, <hi rend='semibold'>Mk. 4.80</hi>.
+</p>
+
+<p>
+In Vorbereitung: </p>
+                <p rend="center"><hi rend='semibold; text-decoration: underline'>No. 8.</hi>
+</p>
+
+<p rend="center">
+<hi rend="font-size: x-large; bold">Die germanischen Stämme</hi>
+<lb/>und<lb/>
+<hi rend="bold; font-size: large">die Kulturen zwischen Oder und Passarge zur römischen Kaiserzeit.</hi>
+</p>
+
+<p rend="center">
+Von <hi rend='bold'>Dr. Erich Blume</hi>-Posen.
+</p>
+
+<p rend="center">
+Ca. 12–15 Bogen mit ca. 200 Abbildungen.
+<lb/><hi rend='semibold'>Einzelpreis etwa Mk. 9.–, Subskriptionspreis etwa Mk. 7.–.</hi>
+</p>
+
+<p rend="center">
+<hi rend="bold; font-size: x-large">Die vor- und frühgeschichtlichen Altertümer Thüringens</hi>
+</p>
+
+<p rend="center">
+im Auftrage Thüringischer Geschichtsvereine und wissenschaftlicher
+Korporationen mit Unterstützung der Staatsregierungen von Preussen,
+Sachsen-Weimar, Sachsen-Coburg-Gotha, Schwarzburg-Rudolstadt
+und Schwarzburg-Sondershausen
+<lb/>
+herausgegeben von
+</p>
+
+                <table rend="latexcolumns: p{2.5cm}p{2.5cm}p{2.5cm}">
+    <row><cell rend="center"><hi rend='bold'>Prof. Dr. A.&nbsp;Götze</hi><lb/>
+    <hi rend="font-size: small">Berlin-Grosslichterfelde</hi></cell>
+    <cell rend="center"><hi rend='bold'>Sanitäts-Rat Dr. P. Zschiesche</hi><lb/>
+    <hi rend="font-size: small">Erfurt.</hi></cell>
+        <cell rend="center"><hi rend='bold'>Prof. Dr. P.&nbsp;Höfer</hi>
+        <lb/><hi rend="font-siez: small">Wernigerode</hi></cell>
+    </row>
+</table>
+
+<p rend="center">
+Mit 24 Lichtdrucktafeln und einer archäologischen Karte.
+<lb/><hi rend='italic; font-size: large'>Preis brosch. Mk. 20.–, gebd. Mk. 22.–.</hi>
+</p>
+
+<p>
+<hi rend="font-size: small">Im Text gibt zunächst Zschiesche Auskunft über die Entstehung des mühevollen Unternehmens, dann Götze
+eine ausführliche und sehr lesenswerte Übersicht über die Vor- und Frühgeschichte Thüringens. Als Kern des Werkes
+folgt hierauf das von den drei Autoren bearbeitete Fundverzeichnis (400 S.), ein von Höfer verfasstes wertvolles Literaturverzeichnis
+(43 S.), Ortsregister und Tafelerläuterung. Die vorzüglich ausgeführten Lichtdrucktafeln beruhen zum
+grössten Teil auf eigens für das Werk hergestellten photographischen Aufnahmen und gewähren einen vollen Überblick
+über den Reichtum Thüringens an höchst bemerkenswerten Funden aus allen alten Kulturperioden Europas .....
+Die drei Autoren haben <hi rend='gesperrt'>eine Musterarbeit</hi> geliefert, auf welche sie selbst und das Land, dem sie gewidmet ist,
+stolz sein können.</hi>
+</p>
+
+<p rend="text-align: right"><hi rend="font-size: small">„<hi rend='italic'>Korrespondenzblatt d. Deutsch. Geschichts- und Altertumsvereine</hi>“.</hi></p>
+
+<p rend="center">
+<hi rend='bold; font-size: large; text-decoration: underline'>Die neuesten Ergebnisse der Paläontologie des Menschen und das Abstammungsproblem
+der heutigen Menschenrassen</hi>
+</p>
+
+<p rend="center">
+von <hi rend='bold'>Professor Dr. Joh. Sobotta-Würzburg</hi>. Mit
+4 Abbildungen im Text. Preis Mk. <hi rend='bold'>1.50</hi>.
+</p>
+
+<p rend="center">
+<hi rend="font-size: small">Königl. Universitätsdruckerei H. Stürtz A.G., Würzburg</hi>
+</p>              
+            </div>
+<div>
+            <pgIf output="pdf">
+                <then/>
+                <else>
+                    <div id="footnotes" rend="page-break-before: right">
+                        <index index="toc"/>
+                        <head>Fußnoten</head>
+                        <divGen type="footnotes"/>
+                    </div>
+                </else>
+            </pgIf>
+            </div>
+            <div rend="x-class: boxed; page-break-before: right">
+                <index index="toc"/><index index="pdf"/>
+                <head>Bemerkungen zur Textgestalt</head>
+                <pgIf output="pdf"><then><p>Die Fußnoten sind im Original je Seite neugezählt.</p></then>
+                <else><p>Die Fußnoten sind im Original je Seite neugezählt. Sie wurden in der elektronischen Fassung am Ende zusammengefasst.</p></else></pgIf>
+            <p>Die Abbildungen wurden nach dem jeweiligen Absatz positioniert, in dem sie erwähnt werden.
+                Seiten, die nur Abbildungen enthalten, fehlen deswegen in der Paginierung.
+                Das Abbildungsverzeichnis wurde in der elektronischen Fassung hinzugefügt.</p>
+                <p>Die Anzeigen auf den letzten Seiten sind im Original
+               teilweise in Fraktur gesetzt, der Rest des Buches in Antiqua. Der Wechsel der Schriftart ist in der elektronischen Fassung
+               nicht wiedergegeben.</p>
+                 <p>Korrektur von offensichtlichen Druckfehlern:</p>
+                <list>
+                    <item><ref target="corra1">Werbeseite</ref>: Gedankenstrich ergänzt vor „Frödin“</item>
+                    <item><ref target="corra2">Werbeseite</ref>: Punkt ergänzt hinter „M“</item>
+                    <item><ref target="b18">Legende zu Bild 18</ref>: „Säulenkapitel“ geändert in „Säulenkapitell“</item>
+                    <item><ref target="corr027">Seite 27</ref>: „protospalarius“ geändert in „protospatarius“</item>
+                    <item><ref target="corr029">Seite 29, Fußnote</ref>: „die“ geändert in „Die“</item>
+                    <item><ref target="corra3">Werbeseite</ref>: „france“ geändert in „France“</item>                   
+                </list>
+                <p>Kommasetzung wurde nicht verändert, Schreibvarianten wie „Ädicula/Aedicula“, „Baalbek/Baalbeck“, „Boetius/Boëtius“
+                    wurden nicht vereinheitlicht.</p>
+            </div>
+            <div rend="page-break-before: right">
+                <divGen type="pgfooter"/>
+            </div>
+        </back>
+    </text>
+</TEI.2>
