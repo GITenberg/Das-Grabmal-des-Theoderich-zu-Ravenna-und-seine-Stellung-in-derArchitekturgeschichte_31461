@@ -12,6 +12,8 @@ creator:
     url: http://www.gutenberg.org/2009/agents/35280
     wikipedia: http://de.wikipedia.org/wiki/Bruno_Schulz_%28Architekt%29
 description: ''
+edition_identifiers:
+  edition_id: http://www.gutenberg.org/ebooks/31461#Das-Grabmal-des-Theoderich-zu-Ravenna-und-seine-Stellung-in-derArchitekturgeschichte
 gutenberg_bookshelf: DE Sachbuch
 gutenberg_issued: '2010-03-01'
 gutenberg_type: Text
